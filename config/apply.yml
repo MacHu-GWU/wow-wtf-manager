@@ -1,0 +1,62 @@
+#--- Account level configs ---
+
+account-macros:
+  - name: Apply litgugua - litgugud general macros
+    allow-groups:
+      - characters-4-litgugua-to-litgugud
+    file: litgugua-5-ppl-team.txt
+  - name: Apply litgugue - litguguh general macros
+    allow-groups:
+      - characters-4-litgugue-to-litguguh
+    file: litgugue-5-ppl-team.txt
+
+account-keybinding:
+  - name: Apply 8 boomy resto druid
+    allow-groups:
+      - characters-8-dudu
+    file: default.txt
+
+account-config:
+  - name: Apply 8 boomy resto druid
+    allow-groups:
+      - characters-8-dudu
+    file: default.txt
+
+
+#--- Character level configs ---
+character-chat:
+  - name: Apply default chat settings to all characters.
+    allow-groups:
+      - characters-8-dudu
+    ignore-groups: []
+    file: default.txt
+
+character-addons:
+  - name:
+    allow-groups:
+      - addons-enable-all
+    ignore-groups: []
+    file: enable-all.txt
+  - name:
+    allow-groups:
+      - addons-multibox-minimal
+    ignore-groups: []
+    file: multibox-minimal.txt
+
+character-layout:
+  # it is a "task"
+  - name: Apply default Layout to all characters. Include chat frame, loot frame, action bar, caster bar, map position, etc ...
+    allow-groups:
+      - characters-8-dudu
+    ignore-groups: []
+    file: default.txt
+
+character-macros:
+  - name: Apply balance resto dual spec druid character macro for multibox as slave
+    allow-groups:
+      - characters-8-dudu
+    file: druid-balance-resto-multibox-slave.txt
+
+character-keybinding: []
+
+character-config: []

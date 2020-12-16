@@ -1,0 +1,161 @@
+characters-all:
+  - Fatmulti1.Icecrown.BatleFury
+  - Fatmulti1.Icecrown.Litgoatssa
+  - Fatmulti1.Icecrown.Litgoatzsa
+  - Fatmulti1.Icecrown.Litgoatdka
+  - Fatmulti1.Icecrown.Litgoatdza
+  - Fatmulti2.Icecrown.Quentinquinn
+  - Fatmulti2.Icecrown.Litgoatssb
+  - Fatmulti2.Icecrown.Litgoatzsb
+  - Fatmulti2.Icecrown.Litgoatdkb
+  - Fatmulti2.Icecrown.Litgoatdzb
+  - Fatmulti3.Icecrown.Opiitou
+  - Fatmulti3.Icecrown.Litgoatssc
+  - Fatmulti3.Icecrown.Litgoatzsc
+  - Fatmulti3.Icecrown.Litgoatdkc
+  - Fatmulti3.Icecrown.Litgoatdzc
+  - Fatmulti4.Icecrown.Swagsonic
+  - Fatmulti4.Icecrown.Litgoatssd
+  - Fatmulti4.Icecrown.Litgoatzsd
+  - Fatmulti4.Icecrown.Litgoatdkd
+  - Fatmulti4.Icecrown.Litgoatdzd
+  - Fatmulti5.Icecrown.Kangliu
+  - Fatmulti5.Icecrown.Litgoatsse
+  - Fatmulti5.Icecrown.Litgoatzse
+  - Fatmulti5.Icecrown.Litgoatdke
+  - Fatmulti5.Icecrown.Litgoatdze
+  - Fitsheep.Icecrown.Kindhearted
+  - Fitsheep.Icecrown.Bordercollie
+  - Fitsheep.Icecrown.Sweetmonk
+  - Fitsheep.Icecrown.Angorarabbit
+  - Fitsheep.Icecrown.Sheepbunny
+  - Fitsheep.Icecrown.Angrybunny
+  - Fitsheep.Icecrown.Juicysheep
+  - Fitsheep.Icecrown.Chunlily
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti6.Icecrown.Litgoatssh
+  - Fatmulti6.Icecrown.HealthyMonk
+  - Fatmulti6.Icecrown.Litgoatxdh
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Fatmulti8.Icecrown.Litgoatssi
+  - Fatmulti8.Icecrown.Honeymonk
+  - Fatmulti8.Icecrown.Litgoatxdi
+  - Fatmulti9.Icecrown.Glowyy
+  - Fatmulti9.Icecrown.Litgoatssj
+  - Fatmulti9.Icecrown.ChubbyMonk
+  - Fatmulti9.Icecrown.Litgoatxdj
+  - Fatmulti10.Icecrown.Luxiaofeng
+  - Fatmulti10.Icecrown.Litgoatssk
+  - Fatmulti10.Icecrown.ShinyMonk
+  - Fatmulti10.Icecrown.Litgoatxdk
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+
+characters-high-gs:
+  - Fatmulti1.Icecrown.BatleFury
+  - Fatmulti2.Icecrown.Quentinquinn
+  - Fatmulti3.Icecrown.Opiitou
+  - Fatmulti4.Icecrown.Swagsonic
+  - Fatmulti5.Icecrown.Kangliu
+  - Fitsheep.Icecrown.Kindhearted
+  - Fitsheep.Icecrown.Bordercollie
+  - Fitsheep.Icecrown.Sweetmonk
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Fatmulti9.Icecrown.Glowyy
+  - Fatmulti10.Icecrown.Luxiaofeng
+
+characters-8-dudu:
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+
+characters-4-litgugua-to-litgugud:
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+
+characters-4-litgugue-to-litguguh:
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+
+addons-enable-all:
+  # high gs main char
+  - Fatmulti1.Icecrown.BatleFury
+  - Fatmulti2.Icecrown.Quentinquinn
+  - Fatmulti3.Icecrown.Opiitou
+  - Fatmulti4.Icecrown.Swagsonic
+  - Fatmulti5.Icecrown.Kangliu
+  - Fitsheep.Icecrown.Kindhearted
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Fatmulti9.Icecrown.Glowyy
+  - Fatmulti10.Icecrown.Luxiaofeng
+  # others
+  - Fitsheep.Icecrown.Bordercollie
+  - Fitsheep.Icecrown.Sweetmonk
+  # banker
+  - Fitsheep.Icecrown.Angorarabbit
+
+addons-multibox-minimal:
+  - Fatmulti1.Icecrown.Litgoatssa
+  - Fatmulti1.Icecrown.Litgoatzsa
+  - Fatmulti1.Icecrown.Litgoatdka
+  - Fatmulti1.Icecrown.Litgoatdza
+  - Fatmulti2.Icecrown.Litgoatssb
+  - Fatmulti2.Icecrown.Litgoatzsb
+  - Fatmulti2.Icecrown.Litgoatdkb
+  - Fatmulti2.Icecrown.Litgoatdzb
+  - Fatmulti3.Icecrown.Litgoatssc
+  - Fatmulti3.Icecrown.Litgoatzsc
+  - Fatmulti3.Icecrown.Litgoatdkc
+  - Fatmulti3.Icecrown.Litgoatdzc
+  - Fatmulti4.Icecrown.Litgoatssd
+  - Fatmulti4.Icecrown.Litgoatzsd
+  - Fatmulti4.Icecrown.Litgoatdkd
+  - Fatmulti4.Icecrown.Litgoatdzd
+  - Fatmulti5.Icecrown.Litgoatsse
+  - Fatmulti5.Icecrown.Litgoatzse
+  - Fatmulti5.Icecrown.Litgoatdke
+  - Fatmulti5.Icecrown.Litgoatdze
+  - Fitsheep.Icecrown.Sheepbunny
+  - Fitsheep.Icecrown.Angrybunny
+  - Fitsheep.Icecrown.Juicysheep
+  - Fitsheep.Icecrown.Chunlily
+  - Fatmulti6.Icecrown.Litgoatssh
+  - Fatmulti6.Icecrown.HealthyMonk
+  - Fatmulti6.Icecrown.Litgoatxdh
+  - Fatmulti8.Icecrown.Litgoatssi
+  - Fatmulti8.Icecrown.Honeymonk
+  - Fatmulti8.Icecrown.Litgoatxdi
+  - Fatmulti9.Icecrown.Litgoatssj
+  - Fatmulti9.Icecrown.ChubbyMonk
+  - Fatmulti9.Icecrown.Litgoatxdj
+  - Fatmulti10.Icecrown.Litgoatssk
+  - Fatmulti10.Icecrown.ShinyMonk
+  - Fatmulti10.Icecrown.Litgoatxdk
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+test:
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub

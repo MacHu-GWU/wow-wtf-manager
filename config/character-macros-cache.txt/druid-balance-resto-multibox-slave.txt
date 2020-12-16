@@ -1,0 +1,54 @@
+MACRO 16777236 "BirdOff" INV_Misc_QuestionMark
+#showtooltip
+#first talent is boomkin, second talent is resto
+/cast [stance:6] Swift Flight Form
+END
+MACRO 16777239 "BirdOn" INV_Misc_QuestionMark
+#showtooltip
+#first talent is boomkin, second talent is resto
+/cast [stance:0/1/2/3/4/5] Swift Flight Form
+END
+MACRO 16777234 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+#first talent is boomkin, second talent is resto
+/target player
+/cast [spec:1,stance:0/1/2/3/4] Moonkin Form; Tree of Life
+END
+MACRO 16777243 "Burst" INV_Misc_QuestionMark
+#showtooltip
+/use Talisman of Resurgence
+END
+MACRO 16777238 "Dash" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:0/1/2/4/5] Cat Form
+/cast [stabce:3] Dash
+END
+MACRO 16777242 "MB-DPSRotate" INV_Misc_QuestionMark
+#showtooltip
+/castsequence
+/cast [spec:1,stance:0/1/2/3/4] Moonkin Form
+/castsequence Moonfire,Wrath,Starfire,Wrath,Starfire,Insect Swarm,Wrath,Starfire,Wrath,Starfire,Wrath,Starfire,Wrath,Starfire
+END
+MACRO 16777233 "MB-HealQuick" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt, nochanneling] Regrowth; [nochanneling][help][target=targettarget,help][] Nourish
+END
+MACRO 16777241 "MB-HealRaid" INV_Misc_QuestionMark
+#showtooltip
+/targetraid
+/castsequence reset=10 Wild Growth,Rejuvenation,Rejuvenation,Rejuvenation,Rejuvenation
+END
+MACRO 16777232 "MB-HealSlow" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [nochanneling] reset=target Rejuvenation, Regrowth, Lifebloom, Lifebloom, Lifebloom,,,,
+END
+MACRO 16777240 "Mount" INV_Misc_QuestionMark
+#showtooltip
+/cast [noflyable] Swift Mistsaber
+/cast [flyable] Swift Flight Form
+END
+MACRO 16777237 "Prowl" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:0/1/2/4/5] Cat Form
+/cast [stabce:3] Prowl
+END
