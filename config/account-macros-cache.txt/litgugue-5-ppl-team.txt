@@ -81,7 +81,7 @@ END
 MACRO 67 "MB-TgtPersonOp" Ability_Hunter_MarkedForDeath
 /target opiitou
 END
-MACRO 44 "MB-TgtPersonXDa" Ability_Hunter_MarkedForDeath
+MACRO 44 "MB-TgtPersonXDe" Ability_Hunter_MarkedForDeath
 /target litgugue
 END
 MACRO 86 "MB-TgtRaid" Ability_Hunter_SniperShot

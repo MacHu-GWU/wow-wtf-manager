@@ -1,29 +1,53 @@
-characters-all:
+# Syntax:
+#
+# Valid item name:
+#
+# - for character: ${AccountName}.${RealmName}.${CharacterName} case not sensitive
+# - for group: ${GroupName}
+#
+# if you have group item defined in a group, all member of that group
+# will be added to the parent group
+#
+# WARNING: make sure you don't have circular reference!
+
+
+#--- group by accounts ---
+accounts-fatmulti1:
   - Fatmulti1.Icecrown.BatleFury
   - Fatmulti1.Icecrown.Litgoatssa
   - Fatmulti1.Icecrown.Litgoatzsa
   - Fatmulti1.Icecrown.Litgoatdka
   - Fatmulti1.Icecrown.Litgoatdza
+
+accounts-fatmulti2:
   - Fatmulti2.Icecrown.Quentinquinn
   - Fatmulti2.Icecrown.Litgoatssb
   - Fatmulti2.Icecrown.Litgoatzsb
   - Fatmulti2.Icecrown.Litgoatdkb
   - Fatmulti2.Icecrown.Litgoatdzb
+
+accounts-fatmulti3:
   - Fatmulti3.Icecrown.Opiitou
   - Fatmulti3.Icecrown.Litgoatssc
   - Fatmulti3.Icecrown.Litgoatzsc
   - Fatmulti3.Icecrown.Litgoatdkc
   - Fatmulti3.Icecrown.Litgoatdzc
+
+accounts-fatmulti4:
   - Fatmulti4.Icecrown.Swagsonic
   - Fatmulti4.Icecrown.Litgoatssd
   - Fatmulti4.Icecrown.Litgoatzsd
   - Fatmulti4.Icecrown.Litgoatdkd
   - Fatmulti4.Icecrown.Litgoatdzd
+
+accounts-fatmulti5:
   - Fatmulti5.Icecrown.Kangliu
   - Fatmulti5.Icecrown.Litgoatsse
   - Fatmulti5.Icecrown.Litgoatzse
   - Fatmulti5.Icecrown.Litgoatdke
   - Fatmulti5.Icecrown.Litgoatdze
+
+accounts-fitsheep:
   - Fitsheep.Icecrown.Kindhearted
   - Fitsheep.Icecrown.Bordercollie
   - Fitsheep.Icecrown.Sweetmonk
@@ -32,30 +56,87 @@ characters-all:
   - Fitsheep.Icecrown.Angrybunny
   - Fitsheep.Icecrown.Juicysheep
   - Fitsheep.Icecrown.Chunlily
+
+accounts-fatmulti6:
   - Fatmulti6.Icecrown.Kapacuk
   - Fatmulti6.Icecrown.Litgoatssh
   - Fatmulti6.Icecrown.HealthyMonk
   - Fatmulti6.Icecrown.Litgoatxdh
+
+accounts-fatmulti8:
   - Fatmulti8.Icecrown.Bunnysisters
   - Fatmulti8.Icecrown.Litgoatssi
   - Fatmulti8.Icecrown.Honeymonk
   - Fatmulti8.Icecrown.Litgoatxdi
+
+accounts-fatmulti9:
   - Fatmulti9.Icecrown.Glowyy
   - Fatmulti9.Icecrown.Litgoatssj
   - Fatmulti9.Icecrown.ChubbyMonk
   - Fatmulti9.Icecrown.Litgoatxdj
+
+accounts-fatmulti10:
   - Fatmulti10.Icecrown.Luxiaofeng
   - Fatmulti10.Icecrown.Litgoatssk
   - Fatmulti10.Icecrown.ShinyMonk
   - Fatmulti10.Icecrown.Litgoatxdk
+
+accounts-fatmulti11:
   - Fatmulti11.Icecrown.Litgugua
+
+accounts-fatmulti12:
   - Fatmulti12.Icecrown.Litgugub
+
+accounts-fatmulti13:
   - Fatmulti13.Icecrown.Litguguc
+
+accounts-fatmulti14:
   - Fatmulti14.Icecrown.Litgugud
+
+accounts-fatmulti15:
   - Fatmulti15.Icecrown.Litgugue
+
+accounts-fatmulti16:
   - Fatmulti16.Icecrown.Litguguf
+
+accounts-fatmulti17:
   - Fatmulti17.Icecrown.Litgugug
+
+accounts-fatmulti18:
   - Fatmulti18.Icecrown.Litguguh
+
+
+#--- group by characters ---
+characters-all:
+  - accounts-fatmulti1
+  - accounts-fatmulti2
+  - accounts-fatmulti3
+  - accounts-fatmulti4
+  - accounts-fatmulti5
+  - accounts-fitsheep
+  - accounts-fatmulti6
+  - accounts-fatmulti8
+  - accounts-fatmulti9
+  - accounts-fatmulti10
+  - accounts-fatmulti11
+  - accounts-fatmulti12
+  - accounts-fatmulti13
+  - accounts-fatmulti14
+  - accounts-fatmulti15
+  - accounts-fatmulti16
+  - accounts-fatmulti17
+  - accounts-fatmulti18
+
+#--- by class
+characters-warrior-and-dk:
+  - Fitsheep.Icecrown.Sweetmonk
+  - Fatmulti1.Icecrown.Litgoatzsa
+  - Fatmulti2.Icecrown.Litgoatzsb
+  - Fatmulti3.Icecrown.Litgoatzsc
+  - Fatmulti4.Icecrown.Litgoatzsd
+  - Fatmulti5.Icecrown.Litgoatzse
+  - Fatmulti10.Icecrown.Luxiaofeng
+
 
 characters-high-gs:
   - Fatmulti1.Icecrown.BatleFury
@@ -93,6 +174,7 @@ characters-4-litgugue-to-litguguh:
   - Fatmulti17.Icecrown.Litgugug
   - Fatmulti18.Icecrown.Litguguh
 
+#--- group by addons ---
 addons-enable-all:
   # high gs main char
   - Fatmulti1.Icecrown.BatleFury
@@ -156,6 +238,6 @@ addons-multibox-minimal:
   - Fatmulti16.Icecrown.Litguguf
   - Fatmulti17.Icecrown.Litgugug
   - Fatmulti18.Icecrown.Litguguh
+
 test:
   - Fatmulti11.Icecrown.Litgugua
-  - Fatmulti12.Icecrown.Litgugub

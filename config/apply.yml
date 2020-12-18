@@ -22,6 +22,24 @@ account-config:
       - characters-8-dudu
     file: default.txt
 
+account-saved-variables: # per account AddOns settings
+  - name: Apply 8 boomy resto druid
+    allow-groups:
+      - characters-8-dudu
+    allow-addons:
+      - AtlasLoot.lua
+      - Combuctor.lua
+      - Dominos.lua
+      - Mappy.lua
+      - oCC.lua
+      - Omen.lua
+      - PallyPower.lua
+      - Parrot.lua
+      - Postal.lua
+      - Quartz.lua
+      - RatingBuster.lua
+      - Skada.lua
+      - SlideBar.lua
 
 #--- Character level configs ---
 character-chat:
@@ -57,6 +75,23 @@ character-macros:
       - characters-8-dudu
     file: druid-balance-resto-multibox-slave.txt
 
-character-keybinding: []
+character-keybinding:
+  - name: Apply keybinding to warrior and dk only
+    allow-groups:
+      - characters-warrior-and-dk
+    file: warrior-and-dk.txt
 
-character-config: []
+character-config:
+  - name: Apply balance resto dual spec druid character macro for multibox as slave
+    allow-groups:
+      - characters-8-dudu
+    file: default.txt
+
+character-saved-variables: # per character AddOns settings
+  - name: Apply 8 boomy resto druid
+    allow-groups:
+      - characters-8-dudu
+    allow-addons:
+      - Atlas.lua
+      - AtlasLoot.lua
+      - Vendomatic.lua

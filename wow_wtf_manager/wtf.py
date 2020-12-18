@@ -37,6 +37,10 @@ class WtfCharacter(AttrsClass):
     def account_config_file(self):
         return Path(self.wtf_specific_account_dir, "config-cache.wtf")
 
+    @property
+    def account_saved_variables_dir(self):
+        return Path(self.wtf_specific_account_dir, "SavedVariables")
+
     #--- character level
     @property
     def character_addons_file(self):
@@ -61,3 +65,8 @@ class WtfCharacter(AttrsClass):
     @property
     def character_chat_file(self):
         return Path(self.wtf_specific_char_dir, "chat-cache.txt")
+
+    @property
+    def character_saved_variables_dir(self):
+        return Path(self.wtf_specific_char_dir, "SavedVariables")
+
