@@ -137,6 +137,12 @@ characters-warrior-and-dk:
   - Fatmulti5.Icecrown.Litgoatzse
   - Fatmulti10.Icecrown.Luxiaofeng
 
+characters-warlock-pvp:
+  - Fatmulti1.Icecrown.Litgoatssa
+  - Fatmulti2.Icecrown.Litgoatssb
+  - Fatmulti3.Icecrown.Litgoatssc
+  - Fatmulti4.Icecrown.Litgoatssd
+  - Fatmulti5.Icecrown.Litgoatsse
 
 characters-high-gs:
   - Fatmulti1.Icecrown.BatleFury
@@ -192,6 +198,16 @@ addons-enable-all:
   - Fitsheep.Icecrown.Sweetmonk
   # banker
   - Fitsheep.Icecrown.Angorarabbit
+
+addons-enable-all-for-luxiaofeng:
+  - Fatmulti10.Icecrown.Luxiaofeng
+
+addons-multibox-minimal-for-non-luxiaofeng:
+  - addons-multibox-minimal
+  - Fitsheep.Icecrown.Kindhearted
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Fatmulti9.Icecrown.Glowyy
 
 addons-multibox-minimal:
   - Fatmulti1.Icecrown.Litgoatssa

@@ -50,14 +50,26 @@ character-chat:
     file: default.txt
 
 character-addons:
+  #--- 普通模式, 所有大号开启所有插件, 小号只使用多开必须的插件 ---
+#  - name:
+#    allow-groups:
+#      - addons-enable-all
+#    ignore-groups: []
+#    file: enable-all.txt
+#  - name:
+#    allow-groups:
+#      - addons-multibox-minimal
+#    ignore-groups: []
+#    file: multibox-minimal.txt
+  #--- 普通模式, 除了司机Luxiaofeng开启所有插件, 小号只使用多开必须的插件 ---
   - name:
     allow-groups:
-      - addons-enable-all
+      - addons-enable-all-for-luxiaofeng
     ignore-groups: []
     file: enable-all.txt
   - name:
     allow-groups:
-      - addons-multibox-minimal
+      - addons-multibox-minimal-for-non-luxiaofeng
     ignore-groups: []
     file: multibox-minimal.txt
 
@@ -70,10 +82,14 @@ character-layout:
     file: default.txt
 
 character-macros:
-  - name: Apply balance resto dual spec druid character macro for multibox as slave
+#  - name: Apply balance resto dual spec druid character macro for multibox as slave
+#    allow-groups:
+#      - characters-8-dudu
+#    file: druid-balance-resto-multibox-slave.txt
+  - name:
     allow-groups:
-      - characters-8-dudu
-    file: druid-balance-resto-multibox-slave.txt
+      - characters-warlock-pvp
+    file: warlock-demon-pvp-lv80.txt
 
 character-keybinding:
   - name: Apply keybinding to warrior and dk only
