@@ -128,15 +128,6 @@ characters-all:
   - accounts-fatmulti18
 
 #--- by class
-characters-warrior-and-dk:
-  - Fitsheep.Icecrown.Sweetmonk
-  - Fatmulti1.Icecrown.Litgoatzsa
-  - Fatmulti2.Icecrown.Litgoatzsb
-  - Fatmulti3.Icecrown.Litgoatzsc
-  - Fatmulti4.Icecrown.Litgoatzsd
-  - Fatmulti5.Icecrown.Litgoatzse
-  - Fatmulti10.Icecrown.Luxiaofeng
-
 characters-warlock-pvp:
   - Fatmulti1.Icecrown.Litgoatssa
   - Fatmulti2.Icecrown.Litgoatssb
@@ -254,6 +245,17 @@ addons-multibox-minimal:
   - Fatmulti16.Icecrown.Litguguf
   - Fatmulti17.Icecrown.Litgugug
   - Fatmulti18.Icecrown.Litguguh
+
+
+#--- group by keybinding ---
+keybinding-warrior-and-dk:
+  - Fitsheep.Icecrown.Sweetmonk
+  - Fatmulti1.Icecrown.Litgoatdka
+  - Fatmulti2.Icecrown.Litgoatdkb
+  - Fatmulti3.Icecrown.Litgoatdkc
+  - Fatmulti4.Icecrown.Litgoatdkd
+  - Fatmulti5.Icecrown.Litgoatdke
+  - Fatmulti10.Icecrown.Luxiaofeng
 
 test:
   - Fatmulti11.Icecrown.Litgugua

@@ -1,0 +1,40 @@
+MACRO 16777224 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Unholy Presence,Raise Dead
+END
+MACRO 16777222 "DPSRotateUnholy" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Scourge Strike,Blood Strike,Death Coil,Scourge Strike,Blood Strike,Scourge Strike,Blood Strike,Death Coil
+END
+MACRO 16777223 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Snowy Gryphon
+/cancelaura [mounted] Acherus Deathcharger
+END
+MACRO 16777218 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Snowy Gryphon
+/cast [noflyable] Acherus Deathcharger
+END
+MACRO 16777225 "N-Act4" INV_Misc_QuestionMark
+#showtooltip
+#spec1=unholy dps,spec2=frost dps
+/cast [mod:alt,spec:1] Scourge Strike; [mod:alt,spec:2] Obliterate; Death Strike
+END
+MACRO 16777221 "N-BloodAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Pestilence; Blood Strike
+END
+MACRO 16777219 "N-FrostAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Chains of Ice; Icy Touch
+/cast Rune Strike
+END
+MACRO 16777220 "N-UnholyAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Death Coil; Plague Strike
+END

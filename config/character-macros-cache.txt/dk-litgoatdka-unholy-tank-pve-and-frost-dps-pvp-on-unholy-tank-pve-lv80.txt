@@ -1,0 +1,53 @@
+MACRO 16777227 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Frost Presence, Raise Dead
+END
+MACRO 16777228 "InvCarryTeam1" Spell_Shaman_SpiritLink
+/invite luxiaofeng
+/invite bunnysisters
+/invite litgoatdkb
+/invite litgoatdkc
+END
+MACRO 16777229 "InvCarryTeam2" Spell_Shaman_SpiritLink
+/invite luxiaofeng
+/invite bunnysisters
+/invite litgoatdkd
+/invite litgoatdke
+END
+MACRO 16777222 "InvDKTeam" Spell_Shaman_SpiritLink
+/invite litgoatdkb
+/invite litgoatdkc
+/invite litgoatdkd
+/invite litgoatdke
+END
+MACRO 16777231 "MounDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Snowy Gryphon
+/cancelaura [mounted] Acherus Deathcharger
+END
+MACRO 16777223 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Snowy Gryphon
+/cast [noflyable] Acherus Deathcharger
+END
+MACRO 16777225 "N-BloodAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Pestilence; Blood Strike
+END
+MACRO 16777224 "N-FrostAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Chains of Ice; Icy Touch
+/cast Rune Strike
+END
+MACRO 16777226 "N-UnholyAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Death Coil; Plague Strike
+END
+MACRO 16777232 "TankRotateUnholy" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Death Coil,Icy Touch,Plague Strike,Blood Strike,Icy Touch,Plague Strike,Blood Strike,Death Coil
+END

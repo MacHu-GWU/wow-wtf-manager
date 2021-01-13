@@ -1,0 +1,92 @@
+MACRO 83 "LFG1" Spell_Shaman_SpiritLink
+/5 VOA25 F+F Need All 4.8k+, w me with GS and Role
+/g VOA25 宝库开组 密我天赋职业进组 我好安排
+#/5 [Anub'Rekhan Must Die!] Need All, w me with GS and Role
+#/g Naxx 蜘蛛周常开组 密我天赋职业进组 我好安排
+END
+MACRO 84 "LFG2" Spell_Shaman_SpiritLink
+/rw Rule: PvE MS>OS w me with MS change, PvP All Role, Mount Res
+/rw Mr X DPS ||
+#/rw Sharing Quest, please abandon existing one and TAKE MINE
+#/rw 分享任务, 请放弃你自己的, 接受我的任务
+END
+MACRO 42 "MB-Confirm" Spell_ChargePositive
+/click StaticPopup1Button1
+END
+MACRO 81 "MB-FocusClear" Spell_Shadow_SoulLeech_2
+/clearfocus
+END
+MACRO 91 "MB-Invite-T1" Spell_Shaman_SpiritLink
+/inv batlefury
+/inv opiitou
+/inv quentinquinn
+/inv swagsonic
+/inv kangliu
+/inv litgoatssa
+/inv litgoatssb
+/inv litgoatssc
+/inv litgoatssd
+/inv litgoatsse
+/inv litgoatdka
+/inv litgoatdkb
+/inv litgoatdkc
+/inv litgoatdkd
+/inv litgoatdke
+END
+MACRO 45 "MB-Invite-T2" Spell_Shaman_SpiritLink
+/inv kindhearted
+/inv kapacuk
+/inv bunnysisters
+/inv glowyy
+/inv luxiaofeng
+/inv bordercollie
+/inv laoshou
+/inv litgugua
+/inv litgugub
+/inv litguguc
+/inv litgugud
+/inv litgugue
+/inv litguguf
+/inv litgugug
+/inv litguguh
+END
+MACRO 88 "MB-LeaveParty" Spell_Shaman_BlessingOfEternals
+/script LeaveParty()
+END
+MACRO 40 "MB-TgtFcsTgt" Ability_Hunter_SniperTraining
+/assist focus
+END
+MACRO 82 "MB-TgtFcsTgtTgt" Ability_Hunter_SniperTraining
+/assist focus
+/assist
+END
+MACRO 85 "MB-TgtParty" Ability_Hunter_SniperShot
+/targetparty
+END
+MACRO 86 "MB-TgtRaid" Ability_Hunter_SniperShot
+/targetraid
+END
+MACRO 67 "MB-TgtW01" Ability_Hunter_MarkedForDeath
+/tar batlefury
+/tar litgoatssa
+/tar litgoatdka
+END
+MACRO 94 "MB-TgtW02" Ability_Hunter_MarkedForDeath
+/tar opiitou
+END
+MACRO 44 "MB-TgtW06" Ability_Hunter_MarkedForDeath
+/tar kindhearted
+/tar sweetmonk
+END
+MACRO 97 "MB-TgtW09" Ability_Hunter_MarkedForDeath
+/tgt Glowyy
+END
+MACRO 95 "MB-TgtW10" Ability_Hunter_MarkedForDeath
+/tar luxiaofeng
+END
+MACRO 96 "MB-TgtW11" Ability_Hunter_MarkedForDeath
+/tar litgugua
+END
+MACRO 99 "WTB" Spell_Shaman_GiftEarthmother
+/run local a,a=GetItemInfo(43102); SendChatMessage("WTB "..a.." 65 Each.","GUILD",nil,nil)
+END

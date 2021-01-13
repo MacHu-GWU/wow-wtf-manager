@@ -1,18 +1,8 @@
-MACRO 16777236 "BirdOff" INV_Misc_QuestionMark
-#showtooltip
-#first talent is boomkin, second talent is resto
-/cast [stance:6] Swift Flight Form
-END
-MACRO 16777239 "BirdOn" INV_Misc_QuestionMark
-#showtooltip
-#first talent is boomkin, second talent is resto
-/cast [stance:0/1/2/3/4/5] Swift Flight Form
-END
 MACRO 16777234 "BuffSelf" INV_Misc_QuestionMark
 #showtooltip
 #first talent is boomkin, second talent is resto
 /target player
-/cast [spec:1,stance:0/1/2/3/4] Moonkin Form; Tree of Life
+/cast [spec:1,stance:0/1/2/3/4] !Moonkin Form; !Tree of Life
 END
 MACRO 16777243 "Burst" INV_Misc_QuestionMark
 #showtooltip
@@ -42,10 +32,32 @@ MACRO 16777232 "MB-HealSlow" INV_Misc_QuestionMark
 #showtooltip
 /castsequence [nochanneling] reset=target Rejuvenation, Regrowth, Lifebloom, Lifebloom, Lifebloom,,,,
 END
-MACRO 16777240 "Mount" INV_Misc_QuestionMark
+MACRO 16777244 "MB-InvRdf1" Spell_Shaman_SpiritLink
+/inv batlefury
+/inv litgugud
+/inv litgugua
+/inv litgugub
+/inv litguguc
+END
+MACRO 16777245 "MB-InvRdf2" Spell_Shaman_SpiritLink
+/inv batlefury
+/inv litguguh
+/inv litgugue
+/inv litguguf
+/inv litgugug
+END
+MACRO 16777240 "MountDown" INV_Misc_QuestionMark
 #showtooltip
-/cast [noflyable] Swift Mistsaber
+/cancelaura Swift Mistsaber
+/cancelaura Swift Flight Form
+END
+MACRO 16777239 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+#dual spec boomy and resto
+/stopmacro [mounted]
+/stopmacro [stance:6]
 /cast [flyable] Swift Flight Form
+/cast [noflyable] Swift Mistsaber
 END
 MACRO 16777237 "Prowl" INV_Misc_QuestionMark
 #showtooltip

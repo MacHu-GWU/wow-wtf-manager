@@ -1,14 +1,10 @@
 #--- Account level configs ---
 
 account-macros:
-  - name: Apply litgugua - litgugud general macros
+  - name: Apply default account macros to all
     allow-groups:
-      - characters-4-litgugua-to-litgugud
-    file: litgugua-5-ppl-team.txt
-  - name: Apply litgugue - litguguh general macros
-    allow-groups:
-      - characters-4-litgugue-to-litguguh
-    file: litgugue-5-ppl-team.txt
+      - characters-all
+    file: default.txt
 
 account-keybinding:
   - name: Apply 8 boomy resto druid
@@ -92,10 +88,17 @@ character-macros:
     file: warlock-demon-pvp-lv80.txt
 
 character-keybinding:
-  - name: Apply keybinding to warrior and dk only
+#  - name: Apply keybinding to warrior and dk only
+#    allow-groups:
+#      - characters-warrior-and-dk
+#    file: warrior-and-dk.txt
+  - name: Apply default keybinding
     allow-groups:
-      - characters-warrior-and-dk
-    file: warrior-and-dk.txt
+      - characters-all
+    ignore-groups:
+      - keybinding-warrior-and-dk
+    file: default.txt
+
 
 character-config:
   - name: Apply balance resto dual spec druid character macro for multibox as slave

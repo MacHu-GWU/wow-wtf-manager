@@ -1,0 +1,56 @@
+MACRO 16777225 "Burst" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Metamorphosis
+/cast Demonic Empowerment
+/use Battlemaster's Ruination
+END
+MACRO 16777223 "Curse1" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,help] Detect Invisibility; [mod:alt,harm] Curse of Weakness; [help] Unending Breath; [harm] Curse of the Elements; [mod:alt] Detect Invisibility; [] Unending Breath
+END
+MACRO 16777222 "Curse2" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,help] Soul Link; [mod:alt,harm] Curse of Exhaustion; [help] Health Funnel; [harm] Curse of Tongues; [mod:alt] Soul Link; [] Health Funnel
+END
+MACRO 16777235 "DeamonDPSRotate" INV_Misc_QuestionMark
+#showtooltip
+/assist focus
+/castsequence [nochanneling] reset=9 Immolate,Corruption,Shadow Bolt,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt,Shadow Bolt,Corruption,Shadow Bolt,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt
+/cast Demonic Empowerment
+END
+MACRO 16777229 "MB-Inv-5Lock" Spell_Shaman_SpiritLink
+/invite litgoatssb
+/invite litgoatssc
+/invite litgoatssd
+/invite litgoatsse
+END
+MACRO 16777230 "MB-Inv-RDF-T1" Spell_Shaman_SpiritLink
+/invite litgoatssb
+/invite litgoatssc
+/invite luxiaofeng
+/invite bunnysisters
+END
+MACRO 16777231 "MB-Inv-RDF-T2" Spell_Shaman_SpiritLink
+/invite litgoatssd
+/invite litgoatsse
+/invite luxiaofeng
+/invite bunnysisters
+END
+MACRO 16777233 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Swift Purple Gryphon
+/cancelaura [mounted] Dreadsteed
+END
+MACRO 16777220 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Swift Purple Gryphon
+/cast [noflyable] Dreadsteed
+END
+MACRO 16777227 "SpellStone" INV_Misc_QuestionMark
+#showtooltip Grand Spellstone
+/cast Create Spellstone
+/use Grand Spellstone
+/use 16
+END

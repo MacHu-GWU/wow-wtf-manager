@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#showtooltip
+/cast [noflyable] Swift Frostsaber
+/cast [spec:1,flyable] Swift Flight Form
+/cast [spec:2,flyable] Swift Flight Form
+
+
+
+#showtooltip
+#dual spec boomy and feral
+/cast [spec:1,stance:6] Swift Flight Form
+/cast [spec:2,stance:5] Swift Flight Form
+/cast [mounted] Swift Mistsaber
+
+
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Green Riding Nether Ray
+/cast [noflyable] Armored Brown Bear
+
+
+#showtooltip
+/cancelaura Bronze Drake
+/cancelaura Swift Razzashi Raptor
+
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Bronze Drake
+/cast [noflyable] Swift Razzashi Raptor
+
+
+
+/cast [flyable] Green Riding Nether Ray
+/cast [noflyable] Armored Brown Bear
+
+#showtooltip
+#dual spec boomy and feral
+/stopmacro [mounted]
+/stopmacro [spec:1,stance:6]
+/stopmacro [spec:1,stance:5]
+/cast [flyable] Swift Flight Form
+/cast [noflyable] Swift Mistsaber
+
+
+
+#showtooltip
+/castsequence
+/cast [spec:1,stance:0/1/2/3/4] Moonkin Form
+/castsequence [nochanneling] Moonfire,Wrath,Starfire,Wrath,Starfire,Insect Swarm,Wrath,Starfire,Wrath,Starfire,Wrath,Starfire,Wrath,Starfire
+
+
+/invite lilpa
+/invite pujcovnaa 
+/invite yuliaa leave
+
+8分奶德副手 换掉我的垃圾232的 如果奶德不要的话
+
+#showtooltip
+#spec1=unholy dps,spec2=frost dps
+/cast [mod:alt,spec:1] Scourge Strike; [mod:alt,spec:2] Obliterate; Death Strike
+
+#showtooltip
+/assist focus
+/castsequence [nochanneling] reset=9 Immolate,Corruption,Shadow Bolt,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt,Shadow Bolt,Corruption,Shadow Bolt,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt
+/cast Demonic Empowerment
+
+Incinerate,Incinerate,Incinerate,Corruption,Shadow Bolt,Shadow Bolt,Shadow Bolt,Immolate,Life Tap,Incinerate,Incinerate,Corruption,Incinerate,Shadow Bolt,Shadow Bolt,Shadow Bolt,Life Tap,Incinerate,Incinerate,Incinerate
+/cast Demonic Empowerment
+
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Death Coil,Icy Touch,Plague Strike,Blood Strike,Icy Touch,Plague Strike,Blood Strike,Death Coil
