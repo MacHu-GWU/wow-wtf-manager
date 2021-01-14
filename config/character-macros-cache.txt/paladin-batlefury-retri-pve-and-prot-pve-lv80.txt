@@ -1,0 +1,79 @@
+MACRO 16777235 "ClearDebuff" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Divine Shield
+/cast Divine Shield
+END
+MACRO 16777218 "Heal" INV_Misc_QuestionMark
+#showtooltip
+/cast [modifier:alt,target=mouseover,help][modifier:alt,help][modifier:alt,target=targettarget,help][modifier:alt] Holy Light; [target=mouseover,help][help][target=targettarget,help][] Flash of Light
+END
+MACRO 16777240 "Info" INV_Misc_QuestionMark
+/s 战士麻烦吼个个血, 多谢!
+#/s 我要嘲讽了, 治疗注意奶防骑!
+#/s 骑士被瓦尔琪抓了, 注意补控!
+END
+MACRO 16777219 "MB-AOE" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Holy Wrath; Consecration
+END
+MACRO 16777239 "MB-BT" INV_Misc_QuestionMark
+#showtooltip
+/target Veras Darkshadow
+/assist
+/stopcasting
+/cast Hand of Protection
+END
+MACRO 16777223 "MB-BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/target player
+/castsequence [spec1] reset=target Seal of Vengeance, !Retribution Aura, Greater Blessing of Kings
+/castsequence [spec2] reset=target Righteous Fury, Seal of Vengeance, !Devotion Aura, Greater Blessing of Sanctuary
+END
+MACRO 16777221 "MB-Shield" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Avenger's Shield; Holy Shield
+END
+MACRO 16777241 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Swift Zulian Tiger
+/cancelaura [mounted] Swift Red Gryphon
+END
+MACRO 16777217 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Swift Red Gryphon
+/cast [noflyable] Swift Zulian Tiger
+END
+MACRO 16777220 "NM-Hammer" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Shield of Righteousness; Hammer of the Righteous
+END
+MACRO 16777228 "NM-Judge" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Hand of Reckoning; Judgement of wisdom
+END
+MACRO 16777229 "NM-Judge" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Hand of Reckoning; Judgement of Light
+END
+MACRO 16777222 "NM-Judge" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Hand of Reckoning; Judgement of Justice
+END
+MACRO 16777233 "ShiZiJun" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Shield of Righteousness; Crusader Strike
+END
+MACRO 16777238 "TankRotate" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+#/castsequence Hammer of the Righteous,Shield of Righteousness,Judgement of Wisdom,Holy Shield
+/castsequence Hammer of the Righteous,Shield of Righteousness,Judgement of Light,Holy Shield
+END

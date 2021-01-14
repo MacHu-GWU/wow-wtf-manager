@@ -1,0 +1,68 @@
+MACRO 16777230 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [spec:1] !Frost Presence, Raise Dead
+/castsequence [spec:2] !Frost Presence
+END
+MACRO 16777228 "InviteTwink" Spell_Shaman_SpiritLink
+/invite litgoatssa
+/invite litgoatssb
+/invite litgoatssc
+/invite litgoatssd
+/invite litgoatsse
+/invite litgoatdka
+/invite litgoatdkb
+/invite litgoatdkc
+/invite litgoatdkd
+/invite litgoatdke
+END
+MACRO 16777226 "MB-Interrupt" INV_Misc_QuestionMark
+#showtooltips
+/stopcasting
+/cast [target=focus,harm] Mind Freeze; [target=focustarget,harm] Mind Freeze; [] Mind Freeze
+END
+MACRO 16777229 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Swift Purple Gryphon
+/cancelaura [mounted] Acherus Deathcharger
+END
+MACRO 16777219 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Swift Purple Gryphon
+/cast [noflyable] Acherus Deathcharger
+END
+MACRO 16777221 "N-BloodAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Pestilence; Blood Strike
+END
+MACRO 16777223 "N-FrostAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Chains of Ice; Icy Touch
+/cast Rune Strike
+END
+MACRO 16777222 "N-UnHolyAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Death Coil; Plague Strike
+END
+MACRO 16777224 "N-UnholyFrostAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Obliterate; Death Strike
+END
+MACRO 16777225 "SendMessage" Ability_Warrior_RallyingCry
+/s 战士麻烦吼个个血, 多谢!
+#/s 我要嘲讽了, 治疗注意奶DKT!
+END
+MACRO 16777231 "TankAggoRotate" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Icy Touch,Plague Strike,Blood Strike,Icy Touch,Plague Strike,Blood Strike
+/cast Rune Strike
+END
+MACRO 16777232 "TankLifeRotate" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Death Strike,Blood Strike,Icy Touch,Plague Strike,Rune Tap,Icy Touch,Plague Strike,Blood Strike,Death Strike,Blood Strike
+/cast Rune Strike
+END

@@ -9,7 +9,7 @@
 from wow_wtf_manager.config_init import config_data, group_data, apply_data
 from wow_wtf_manager import apply
 
-apply.apply_account_macros(config_data, group_data, apply_data, dry_run=False)
+# apply.apply_account_macros(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_account_config(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_account_bindings(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_account_saved_variables(config_data, group_data, apply_data, dry_run=False)
@@ -19,7 +19,7 @@ apply.apply_account_macros(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_character_layout(config_data, group_data, apply_data, dry_run=False)
 
 # apply.apply_character_macros(config_data, group_data, apply_data, dry_run=False)
-# apply.apply_character_bindings(config_data, group_data, apply_data, dry_run=False)
+apply.apply_character_bindings(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_character_config(config_data, group_data, apply_data, dry_run=False)
 # apply.apply_character_saved_variables(config_data, group_data, apply_data, dry_run=False)
 

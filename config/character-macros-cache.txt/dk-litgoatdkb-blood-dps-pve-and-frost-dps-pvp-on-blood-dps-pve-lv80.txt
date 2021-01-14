@@ -1,0 +1,35 @@
+MACRO 16777222 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/cast !Blood Presence
+END
+MACRO 16777223 "DPSRotateBlood" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Death Strike,Heart Strike,Death Coil,Death Strike,Heart Strike,Death Strike,Heart Strike,Death Coil
+END
+MACRO 16777224 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Snowy Gryphon
+/cancelaura [mounted] Acherus Deathcharger
+END
+MACRO 16777218 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Snowy Gryphon
+/cast [noflyable] Acherus Deathcharger
+END
+MACRO 16777220 "N-BloodAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Pestilence; Heart Strike
+END
+MACRO 16777219 "N-FrostAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Chains of Ice; Icy Touch
+/cast Rune Strike
+END
+MACRO 16777221 "N-UnholyAct" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [mod:alt] Death Coil; Plague Strike
+END

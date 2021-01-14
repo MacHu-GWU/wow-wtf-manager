@@ -88,16 +88,16 @@ character-macros:
     file: warlock-demon-pvp-lv80.txt
 
 character-keybinding:
-#  - name: Apply keybinding to warrior and dk only
-#    allow-groups:
-#      - characters-warrior-and-dk
-#    file: warrior-and-dk.txt
-  - name: Apply default keybinding
+  - name: Apply keybinding to warrior and dk only
     allow-groups:
-      - characters-all
-    ignore-groups:
       - keybinding-warrior-and-dk
-    file: default.txt
+    file: warrior-and-dk.txt
+#  - name: Apply default keybinding to all other than warrior and dk
+#    allow-groups:
+#      - characters-all
+#    ignore-groups:
+#      - keybinding-warrior-and-dk
+#    file: default.txt
 
 
 character-config:
