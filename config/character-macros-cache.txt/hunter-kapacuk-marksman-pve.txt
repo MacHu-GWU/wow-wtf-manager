@@ -1,0 +1,76 @@
+MACRO 16777246 "Act1-StephenMark" INV_Misc_QuestionMark
+#showtooltip
+/cast [help] Misdirection; [mod:alt] Hunter's Mark; Serpent Sting
+/stopmacro [nohelp]
+/s Misdirect on %t
+END
+MACRO 16777249 "Act2" INV_Misc_QuestionMark
+#showtooltip
+/cast Steady Shot
+/cast Kill Command
+/cast Silencing Shot
+/use Sanctified Ahn'Kahar Blood Hunter's Handguards
+END
+MACRO 16777244 "Act3-MainSkill" INV_Misc_QuestionMark
+#showtooltip
+/cast [help] Misdirection; [mod:alt] Arcane Shot; [spec:1] Chimera Shot; [spec:2] Explosive Shot
+/cast Kill Command
+/cast Silencing Shot
+/use Sanctified Ahn'Kahar Blood Hunter's Handguards
+END
+MACRO 16777245 "Act4-AimMulti" INV_Misc_QuestionMark
+#showtooltip
+/cast [help] Misdirection; [mod:alt] Multi-Shot; Aimed Shot
+/cast Kill Command
+/cast Silencing Shot
+/use Sanctified Ahn'Kahar Blood Hunter's Handguards
+END
+MACRO 16777243 "Aspect Switch1" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Aspect of the Pack, !Aspect of the Dragonhawk
+END
+MACRO 16777248 "Aspect Switch2" INV_Misc_QuestionMark
+#showtooltip
+/castsequence !Aspect of the Viper, !Aspect of the Dragonhawk
+END
+MACRO 16777250 "LOD" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/castsequence Arcane Shot, Chimera Shot, Multi-Shot
+END
+MACRO 16777242 "MB-BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/cast !Aspect of the Dragonhawk
+END
+MACRO 16777238 "MB-Burst" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Rapid Fire
+/use Sanctified Ahn'Kahar Blood Hunter's Handguards
+END
+MACRO 16777239 "MB-Interrupt" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Silencing Shot
+END
+MACRO 16777237 "MB-MdFocus" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,noharm] Misdirection; [target=focustarget,noharm] Misdirection
+#/target [target=focus,noharm] focus; [] focustarget
+END
+MACRO 16777251 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Swift Blue Gryphon
+/cancelaura [mounted] Swift Brewfest Ram
+END
+MACRO 16777236 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Swift Blue Gryphon
+/cast [noflyable] Swift Brewfest Ram
+END
+MACRO 16777247 "TranqFocus" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [target=focus] Tranquilizing Shot
+END

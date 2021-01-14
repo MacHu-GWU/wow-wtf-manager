@@ -1,0 +1,74 @@
+MACRO 16777228 "Act1" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,stealth] Ravage; [stealth] Pounce; [mod:alt,stance:1] Growl; [stance:1] Lacerate; [mod:alt,stance:3] Rake; [stance:3] Claw; [mod:alt,stance:5] Regrowth; [stance:5] Rejuvenation
+END
+MACRO 16777223 "Dash" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:0/1/2/4/5] Cat Form
+/cast [stabce:3] Dash
+END
+MACRO 16777237 "ICCHLK" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast wrath
+END
+MACRO 16777221 "MB-BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+#first talent is resto, second talent is boomkin
+/target player
+/cast [spec:1,stance:0/1/2/3/4] !Tree of Life; !Moonkin Form
+END
+MACRO 16777224 "MB-BuffTeam" INV_Misc_QuestionMark
+#showtooltip
+/target player
+/castsequence reset=target Gift of the Wild, Thorns, Thorns, Thorns, Thorns
+END
+MACRO 16777222 "MB-HealFocus" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,noharm] Nourish; [target=focustarget,noharm] Nourish
+/target [target=focus,noharm] focus; [] focustarget
+END
+MACRO 16777226 "MB-HealRaid" INV_Misc_QuestionMark
+#showtooltip
+/targetraid
+/castsequence Rejuvenation,Rejuvenation,Rejuvenation,Rejuvenation,Rejuvenation,Wild Growth
+END
+MACRO 16777218 "MB-HealSlow" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [nochanneling] reset=target Rejuvenation, Regrowth, Lifebloom, Lifebloom, Lifebloom,,,,
+END
+MACRO 16777233 "MB-SaveMT" INV_Misc_QuestionMark
+#showtooltip
+/target focus
+/cast Nature's Swiftness
+/cast Healing Touch
+/y Cast Nature's Swiftness Healing Touch on >>> %t <<<
+END
+MACRO 16777236 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+#dual spec resto and boomy
+/cast [stance:6] Swift Flight Form
+/cast [mounted] Swift Stormsaber
+END
+MACRO 16777235 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+#dual spec boomy and resto
+/stopmacro [mounted]
+/stopmacro [stance:6]
+/cast [flyable] Swift Flight Form
+/cast [noflyable] Swift Stormsaber
+END
+MACRO 16777219 "NM-HealQuick" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt, nochanneling] Regrowth; [nochanneling][help][target=targettarget,help][] Nourish
+END
+MACRO 16777227 "Prowl" INV_Misc_QuestionMark
+#showtooltip
+/cast [stance:0/1/2/4/5] Cat Form
+/cast [stabce:3] Prowl
+END
+MACRO 16777234 "RejFocus" INV_Misc_QuestionMark
+#showtooltip
+/target focus
+/cast Rejuvenation
+END

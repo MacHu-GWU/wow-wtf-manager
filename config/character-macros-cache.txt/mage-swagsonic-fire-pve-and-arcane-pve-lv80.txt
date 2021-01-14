@@ -1,0 +1,66 @@
+MACRO 16777235 "Act2-Arcane" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,help,nochanneling] Focus Magic; [mod:alt,harm。nochanneling] Arcane Missiles; [help,nochanneling] Remove Curse; [harm,nochanneling] Arcane Blast; [mod:alt,nochanneling] Focus Magic; [nochanneling] Remove Curse
+END
+MACRO 16777237 "Act2-Fire" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,help] Focus Magic; [mod:alt,harm] Pyroblast; [help] Remove Curse; [harm] Fireball; [mod:alt] Focus Magic; [] Remove Curse
+END
+MACRO 16777224 "Act2-Frost" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt, nochanneling] Frostfire Bolt; [nochanneling] Frostbolt
+END
+MACRO 16777220 "Act3" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt,help] Amplify Magic; [mod:alt,harm] Scorch; [help] Dampen Magic; [harm] Fire Blast; [mod:alt] Amplify Magic; [] Dampen Magic
+END
+MACRO 16777221 "BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/target opiitou
+#/target quentinquinn
+#/target kangliu
+#/target kindhearted
+#/target bunnysisters
+/castsequence reset=target Molten Armor, Focus Magic
+END
+MACRO 16777219 "Fire" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt, nochanneling] Ice Lance; [nochanneling] Frostfire Bolt
+END
+MACRO 16777229 "MB-Arcane" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [nochanneling] reset=15 Arcane Blast, Arcane Blast, Arcane Blast, Arcane Blast, Arcane Missiles
+END
+MACRO 16777228 "MB-BuffTeam" INV_Misc_QuestionMark
+#showtooltip
+/target player
+/castsequence reset=target Arcane Brilliance, Frost Ward
+END
+MACRO 16777226 "MB-Burst" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Mirror Image
+/cast [spec:1] Combustion
+/cast [spec:2] Arcane Power
+/cast [spec:2] Icy Veins
+END
+MACRO 16777238 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Bronze Drake
+/cancelaura Swift Razzashi Raptor
+END
+MACRO 16777217 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Bronze Drake
+/cast [noflyable] Swift Razzashi Raptor
+END
+MACRO 16777236 "NM-Act5-COC" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Mana Shield; Cone of Cold
+END
+MACRO 16777222 "NM-Interupt" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [target=focus,harm] Counterspell; [target=focustarget,harm] Counterspell; [] Counterspell
+END

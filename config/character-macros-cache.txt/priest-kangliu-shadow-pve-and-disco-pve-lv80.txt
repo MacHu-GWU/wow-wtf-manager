@@ -1,0 +1,83 @@
+MACRO 16777219 "Act1-Pain" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] Shadow Word: Death; Shadow Word: Pain
+END
+MACRO 16777239 "Act2-MindFlay" INV_Misc_QuestionMark
+#showtooltip
+/cast [nochanneling,mod:alt] Devouring Plague; [nochanneling] Mind Flay
+END
+MACRO 16777232 "Heal" INV_Misc_QuestionMark
+#showtooltip
+/cast [modifier:alt,target=mouseover,help][modifier:alt,help][modifier:alt,target=targettarget,help][modifier:alt] Greater Heal; [target=mouseover,help][help][target=targettarget,help][] Flash Heal
+END
+MACRO 16777238 "HuaShuiShield" INV_Misc_QuestionMark
+#showtooltip
+/targetraid
+#/targetparty
+/castsequence Power Word: Shield
+END
+MACRO 16777242 "ICC-HLK1" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast Mind Sear 
+END
+MACRO 16777233 "ICC-HLK2" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast Devouring Plague
+END
+MACRO 16777243 "Info" INV_Misc_QuestionMark
+/ra 戒律被华尔其抓了！ 小心寄生！
+END
+MACRO 16777218 "MB-AttAssFocus" INV_Misc_QuestionMark
+#showtooltip
+/cast [nostance,nochanneling] Shadowform
+/castsequence [nochanneling] reset=target Vampiric Touch, Mind Flay, Mind Flay, Mind Flay, Mind Flay
+END
+MACRO 16777220 "MB-BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+/target player
+/cast [spec:1,nostance] Shadowform
+/castsequence [spec:1] reset=target Vampiric Embrace, Inner Fire
+/castsequence [spec:2] reset=target Inner Fire
+END
+MACRO 16777225 "MB-Burst" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/use [spec:1] Gunship Captain's Mittens
+/cast [spec:2,target=focus] Power Infusion
+/stopmacro [spec:1]
+/s %t 灌注已给, 去吧皮卡丘!
+END
+MACRO 16777230 "MB-HealMT" INV_Misc_QuestionMark
+#showtooltip
+/target focus
+/castsequence reset=target Flash Heal, Flash Heal, Greater Heal
+END
+MACRO 16777229 "MB-HealSlow" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [nochanneling] reset=target Renew, Prayer of Mending, Penance, Power Word: Shield
+END
+MACRO 16777244 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Green Riding Nether Ray
+/cancelaura Armored Brown Bear
+END
+MACRO 16777217 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Green Riding Nether Ray
+/cast [noflyable] Armored Brown Bear
+END
+MACRO 16777221 "NM-BuffTeam" INV_Misc_QuestionMark
+#showtooltip
+/target player
+/castsequence reset=target Prayer of Fortitude, Prayer of Spirit, Prayer of Shadow Protection,,,,,,
+END
+MACRO 16777235 "PainSupFocus" INV_Misc_QuestionMark
+#showtooltip
+/target focus
+/stopcasting
+/cast Pain Suppression
+/y Pain Suppression on %t, please keep your self alive!
+END

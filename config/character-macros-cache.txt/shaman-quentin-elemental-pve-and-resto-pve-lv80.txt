@@ -1,0 +1,54 @@
+MACRO 16777240 "MB-HealQuick" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt, nochanneling] Healing Wave; [nochanneling][help][target=targettarget,help][] Lesser Healing Wave
+END
+MACRO 16777238 "MB-HealRaid" INV_Misc_QuestionMark
+#showtooltip
+/targetraid
+/castsequence Riptide,,,,,,Chain Heal,,,,,,Lesser Healing Wave,,,,,,Healing Wave,,,,,,
+END
+MACRO 16777229 "MB-HealSlow" INV_Misc_QuestionMark
+#showtooltip
+/target focus
+/castsequence [nochanneling] reset=target Earth Shield, Riptide, Lesser Healing Wave,,,,,,,
+END
+MACRO 16777242 "MountDown" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura [mounted] Blue Drake
+/cancelaura [mounted] Great Blue Elekk
+END
+MACRO 16777217 "MountUp" INV_Misc_QuestionMark
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Blue Drake
+/cast [noflyable] Great Blue Elekk
+END
+MACRO 16777219 "NM-BuffSelf" INV_Misc_QuestionMark
+#showtooltip
+#First Talent is Elemental, Second Talent is Resto
+/castsequence [spec:1] reset=target Water Shield, Flametongue Weapon
+/castsequence [spec:2] reset=target Water Shield, Earthliving Weapon
+END
+MACRO 16777221 "NM-Burst" INV_Misc_QuestionMark
+#showtooltips
+/stopcasting
+/cast [spec:1] Elemental Mastery; Tidal Force
+END
+MACRO 16777235 "NM-HealFocus" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,noharm] Lesser Healing Wave; [target=focustarget,noharm] Lesser Healing Wave
+/target [target=focus,noharm] focus; [] focustarget
+END
+MACRO 16777218 "NM-Interupt" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [target=focus,harm] Wind Shear; [target=focustarget,harm] Wind Shear; [] Wind Shear
+END
+MACRO 16777236 "NM-SaveMT" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Nature's Swiftness
+/cast [target=focus,noharm] Healing Wave; [target=focustarget,noharm] Healing Wave
+/target [target=focus,noharm] focus; [] focustarget
+/y Inst Heal on >>> %t <<<
+END
