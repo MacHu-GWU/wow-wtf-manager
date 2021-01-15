@@ -46,28 +46,39 @@ character-chat:
     file: default.txt
 
 character-addons:
-  #--- 普通模式, 所有大号开启所有插件, 小号只使用多开必须的插件 ---
+  #--- 多开打团本模式, 司机坦克号开启所有插件, 小号只使用多开必须的插件 ---
+  - name:
+    allow-groups:
+      - addons-raid-mode-pala-tanks
+    ignore-groups: []
+    file: raid-mode-pala-tanks.txt
+  - name:
+    allow-groups:
+      - addons-raid-mode-non-pala-tanks
+    ignore-groups: []
+    file: raid-mode-non-pala-tanks.txt
+  - name:
+    allow-groups:
+      - addons-raid-mode-pala-other-members
+    ignore-groups: []
+    file: raid-mode-pala-other-members.txt
+  - name:
+    allow-groups:
+      - addons-raid-mode-non-pala-other-members
+    ignore-groups: []
+    file: raid-mode-non-pala-other-members.txt
+
+  #--- 战场模式, 除了司机Luxiaofeng开启所有插件, 小号只使用多开必须的插件 ---
 #  - name:
 #    allow-groups:
-#      - addons-enable-all
+#      - addons-enable-all-for-luxiaofeng
 #    ignore-groups: []
-#    file: enable-all.txt
+#    file: enable-all-but-pallypower.txt
 #  - name:
 #    allow-groups:
-#      - addons-multibox-minimal
+#      - addons-multibox-minimal-for-non-luxiaofeng
 #    ignore-groups: []
 #    file: multibox-minimal.txt
-  #--- 普通模式, 除了司机Luxiaofeng开启所有插件, 小号只使用多开必须的插件 ---
-  - name:
-    allow-groups:
-      - addons-enable-all-for-luxiaofeng
-    ignore-groups: []
-    file: enable-all.txt
-  - name:
-    allow-groups:
-      - addons-multibox-minimal-for-non-luxiaofeng
-    ignore-groups: []
-    file: multibox-minimal.txt
 
 character-layout:
   # it is a "task"

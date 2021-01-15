@@ -30,16 +30,15 @@ MACRO 16777249 "InviteLv60" Spell_Shaman_SpiritLink
 END
 MACRO 16777220 "MB-BuffSelf" INV_Misc_QuestionMark
 #showtooltip
-/target player
-#spec1=boomy,spec2=resto
-#/cast [spec:1] !Moonkin Form; !Tree of Life
-#spec1=boomy,spec2=feral
-/cast [spec:1] !Moonkin Form; !Dire Bear Form
+#spec1 boomkin, spec2 bear
+/targetraid
+/castsequence [spec:1] reset=3 !Moonkin Form,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns
+/castsequence [spec:2] !Dire Bear Form;
 END
 MACRO 16777219 "MB-BuffTeam" INV_Misc_QuestionMark
 #showtooltip
-/target player
-/castsequence reset=target Gift of the Wild, Thorns, Thorns, Thorns, Thorns
+/targetraid
+/castsequence reset=30 Gift of the Wild,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns
 END
 MACRO 16777237 "MB-HealFocus" INV_Misc_QuestionMark
 #showtooltips

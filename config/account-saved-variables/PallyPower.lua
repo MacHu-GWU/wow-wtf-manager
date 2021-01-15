@@ -2,6 +2,11 @@
 PallyPowerDB = {
 	["profiles"] = {
 		["MyDefault"] = {
+			["freeassign"] = 1,
+			["autobuff"] = {
+				["autokey1"] = false,
+				["autokey2"] = "9",
+			},
 			["display"] = {
 				["frameLocked"] = true,
 			},

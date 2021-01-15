@@ -171,7 +171,45 @@ characters-4-litgugue-to-litguguh:
   - Fatmulti17.Icecrown.Litgugug
   - Fatmulti18.Icecrown.Litguguh
 
+#--- group by class ---
+class-paladins:
+  - Fatmulti1.Icecrown.BatleFury
+  - Fatmulti9.Icecrown.Glowyy
+  - Fatmulti6.Icecrown.HealthyMonk
+
 #--- group by addons ---
+addons-raid-mode-pala-tanks:
+  - Fatmulti1.Icecrown.BatleFury
+
+addons-raid-mode-non-pala-tanks:
+  - Fatmulti10.Icecrown.Luxiaofeng
+
+addons-raid-mode-pala-other-members:
+  - Fatmulti9.Icecrown.Glowyy
+  - Fatmulti6.Icecrown.HealthyMonk
+
+addons-raid-mode-non-pala-other-members:
+  - Fatmulti2.Icecrown.Quentinquinn
+  - Fatmulti3.Icecrown.Opiitou
+  - Fatmulti4.Icecrown.Swagsonic
+  - Fatmulti5.Icecrown.Kangliu
+  - Fitsheep.Icecrown.Kindhearted
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+  - Fitsheep.Icecrown.Bordercollie
+  - Fitsheep.Icecrown.Sweetmonk
+  - Fatmulti8.Icecrown.Honeymonk
+  - Fatmulti9.Icecrown.ChubbyMonk
+  - Fatmulti10.Icecrown.ShinyMonk
+
 addons-enable-all:
   # high gs main char
   - Fatmulti1.Icecrown.BatleFury
