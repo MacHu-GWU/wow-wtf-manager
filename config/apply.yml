@@ -9,19 +9,19 @@ account-macros:
 account-keybinding:
   - name: Apply 8 boomy resto druid
     allow-groups:
-      - characters-8-dudu
+      - test
     file: default.txt
 
 account-config:
   - name: Apply 8 boomy resto druid
     allow-groups:
-      - characters-8-dudu
+      - test
     file: default.txt
 
 account-saved-variables: # per account AddOns settings
   - name: Apply 8 boomy resto druid
     allow-groups:
-      - characters-8-dudu
+      - test
     allow-addons:
       - AtlasLoot.lua
       - Combuctor.lua
@@ -41,32 +41,32 @@ account-saved-variables: # per account AddOns settings
 character-chat:
   - name: Apply default chat settings to all characters.
     allow-groups:
-      - characters-8-dudu
+      - test
     ignore-groups: []
     file: default.txt
 
 character-addons:
   #--- 多开打团本模式, 司机坦克号开启所有插件, 小号只使用多开必须的插件 ---
-  - name:
-    allow-groups:
-      - addons-raid-mode-pala-tanks
-    ignore-groups: []
-    file: raid-mode-pala-tanks.txt
-  - name:
-    allow-groups:
-      - addons-raid-mode-non-pala-tanks
-    ignore-groups: []
-    file: raid-mode-non-pala-tanks.txt
-  - name:
-    allow-groups:
-      - addons-raid-mode-pala-other-members
-    ignore-groups: []
-    file: raid-mode-pala-other-members.txt
-  - name:
-    allow-groups:
-      - addons-raid-mode-non-pala-other-members
-    ignore-groups: []
-    file: raid-mode-non-pala-other-members.txt
+#  - name:
+#    allow-groups:
+#      - addons-raid-mode-pala-tanks
+#    ignore-groups: []
+#    file: raid-mode-pala-tanks.txt
+#  - name:
+#    allow-groups:
+#      - addons-raid-mode-non-pala-tanks
+#    ignore-groups: []
+#    file: raid-mode-non-pala-tanks.txt
+#  - name:
+#    allow-groups:
+#      - addons-raid-mode-pala-other-members
+#    ignore-groups: []
+#    file: raid-mode-pala-other-members.txt
+#  - name:
+#    allow-groups:
+#      - addons-raid-mode-non-pala-other-members
+#    ignore-groups: []
+#    file: raid-mode-non-pala-other-members.txt
 
   #--- 战场模式, 除了司机Luxiaofeng开启所有插件, 小号只使用多开必须的插件 ---
 #  - name:
@@ -74,17 +74,18 @@ character-addons:
 #      - addons-enable-all-for-luxiaofeng
 #    ignore-groups: []
 #    file: enable-all-but-pallypower.txt
-#  - name:
-#    allow-groups:
+  - name:
+    allow-groups:
 #      - addons-multibox-minimal-for-non-luxiaofeng
-#    ignore-groups: []
-#    file: multibox-minimal.txt
+      - test
+    ignore-groups: []
+    file: multibox-minimal.txt
 
 character-layout:
   # it is a "task"
   - name: Apply default Layout to all characters. Include chat frame, loot frame, action bar, caster bar, map position, etc ...
     allow-groups:
-      - characters-8-dudu
+      - test
     ignore-groups: []
     file: default.txt
 
@@ -101,7 +102,7 @@ character-macros:
 character-keybinding:
   - name: Apply keybinding to warrior and dk only
     allow-groups:
-      - keybinding-warrior-and-dk
+      - test
     file: warrior-and-dk.txt
 #  - name: Apply default keybinding to all other than warrior and dk
 #    allow-groups:
@@ -114,13 +115,13 @@ character-keybinding:
 character-config:
   - name: Apply balance resto dual spec druid character macro for multibox as slave
     allow-groups:
-      - characters-8-dudu
+      - test
     file: default.txt
 
 character-saved-variables: # per character AddOns settings
   - name: Apply 8 boomy resto druid
     allow-groups:
-      - characters-8-dudu
+      - test
     allow-addons:
       - Atlas.lua
       - AtlasLoot.lua

@@ -81,6 +81,10 @@ accounts-fatmulti10:
   - Fatmulti10.Icecrown.ShinyMonk
   - Fatmulti10.Icecrown.Litgoatxdk
 
+accounts-makun7551:
+  - Makun7551.Icecrown.Laoshou
+  - Makun7551.Icecrown.Ganjj
+
 accounts-fatmulti11:
   - Fatmulti11.Icecrown.Litgugua
 
@@ -105,6 +109,29 @@ accounts-fatmulti17:
 accounts-fatmulti18:
   - Fatmulti18.Icecrown.Litguguh
 
+accounts-fatmulti19:
+  - Fatmulti19.Icecrown.lgmsi
+
+accounts-fatmulti20:
+  - Fatmulti20.Icecrown.lgmsj
+
+accounts-fatmulti21:
+  - Fatmulti21.Icecrown.lgmsk
+
+accounts-fatmulti22:
+  - Fatmulti22.Icecrown.lgmsl
+
+accounts-fatmulti23:
+  - Fatmulti23.Icecrown.lgsmm
+
+accounts-fatmulti24:
+  - Fatmulti24.Icecrown.lgsmn
+
+accounts-fatmulti25:
+  - Fatmulti25.Icecrown.lgsmo
+
+accounts-fatmulti26:
+  - Fatmulti26.Icecrown.lgsmp
 
 #--- group by characters ---
 characters-all:
@@ -126,6 +153,14 @@ characters-all:
   - accounts-fatmulti16
   - accounts-fatmulti17
   - accounts-fatmulti18
+  - accounts-fatmulti19
+  - accounts-fatmulti20
+  - accounts-fatmulti21
+  - accounts-fatmulti22
+  - accounts-fatmulti23
+  - accounts-fatmulti24
+  - accounts-fatmulti25
+  - accounts-fatmulti26
 
 #--- by class
 characters-warlock-pvp:
@@ -296,4 +331,13 @@ keybinding-warrior-and-dk:
   - Fatmulti10.Icecrown.Luxiaofeng
 
 test:
-  - Fatmulti11.Icecrown.Litgugua
+#  - Makun7551.Icecrown.Ganjj
+#  - Makun7551.Icecrown.Laoshou
+  - Fatmulti19.Icecrown.lgmsi
+  - Fatmulti20.Icecrown.lgmsj
+  - Fatmulti21.Icecrown.lgmsk
+  - Fatmulti22.Icecrown.lgmsl
+  - Fatmulti23.Icecrown.lgsmm
+  - Fatmulti24.Icecrown.lgsmn
+  - Fatmulti25.Icecrown.lgsmo
+  - Fatmulti26.Icecrown.lgsmp

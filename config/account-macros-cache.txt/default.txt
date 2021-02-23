@@ -79,7 +79,7 @@ MACRO 44 "MB-TgtW06" Ability_Hunter_MarkedForDeath
 /tar sweetmonk
 END
 MACRO 97 "MB-TgtW09" Ability_Hunter_MarkedForDeath
-/tgt Glowyy
+/tar glowyy
 END
 MACRO 95 "MB-TgtW10" Ability_Hunter_MarkedForDeath
 /tar luxiaofeng

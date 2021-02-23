@@ -85,3 +85,154 @@ Incinerate,Incinerate,Incinerate,Corruption,Shadow Bolt,Shadow Bolt,Shadow Bolt,
 
 #showtooltip
 /castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Death Coil,Icy Touch,Plague Strike,Blood Strike,Icy Touch,Plague Strike,Blood Strike,Death Coil
+
+
+#showtooltip
+/castsequence reset=9 Icy Touch,Plague Strike,Pestilence,Death Strike,Heart Strike,Death Coil,Death Strike,Heart Strike,Death Strike,Heart Strike,Death Coil
+
+#showtooltips
+/castsequence reset=target Immolate,Corruption,Conflagrate,Incinerate,Incinerate,Incinerate,Incinerate,Incinerate,Incinerate,Corruption,
+
+Incinerate,Incinerate,Immolate,Corruption,Conflagrate,Incinerate,Incinerate,Incinerate,Incinerate
+
+Incinerate,Incinerate,Corruption,Immolate,Incinerate,Conflagrate,Incinerate,Incinerate
+Corruption
+
+#showtooltip
+/castsequence reset=9
+Icy Touch,Plague Strike,Pestilence,Icy Touch,Plague Strike,Blood Strike,Death Strike,Blood Strike,Icy Touch,Plague Strike,Rune Tap,Icy Touch,Plague Strike,Blood Strike,Death Strike,Blood Strike
+/cast Rune Strike
+
+我觉得以后可以要求治疗站在中间圈圈的四个尖角那里 我测过刚好9-10码距离 其他人以那里为基准原理, 我丢了四个烟雾弹, 那个尖尖的位置好找
+
+#showtooltip
+#spec1 boomkin, spec2 bear
+/targetraid
+/castsequence [spec:1] reset=3 !Moonkin Form,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns
+/castsequence [spec:2] !Dire Bear Form;
+
+
+#showtooltip
+/targetraid
+/castsequence reset=30 Gift of the Wild,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns
+
+#showtooltip
+#spec1 resto, spec2 boomkin
+/target player
+/castsequence [spec:1] reset=3 !Tree of Life,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns; !Moonkin Form,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns,Thorns
+
+
+
+麦哥我真的不是杠精, 怕你觉得我打本态度不好, 我跟你解释一下, 怕你不好团队管理, 我私聊跟你说. 我不是连线死的, 是被一个什么之鞭1w8+血箭连死的, 我本来跟magicyxx开打前就站定左边分散了, 我在最左上角, 然后pipilu跑到了我们中间, 连死了我. 我死了就立刻看了战斗记录. 上次我真的是暴毙, 这全部发生在1秒以内, 我有死亡记录插件的. 您别生我气哈
+
+首先凑够4T10 10分底分拿普通章, 章肯定比你的冰霜牌子先齐, 一般普通章没人要
+
+其次凡是  智力耐力精神 法伤 暴击或急速的装备, 根据ms os象征性出低分捡破烂提升下, 有人要就算了, 别想着拿极品散件, 极品散件的提升并不大, 所谓极品不是因为他号, 只是因为竞争者多
+
+换言之 ,其他277散件给你带来的提升跟极品散件(腰带, 项链, 戒指, 披风) 带来的并没有区别, 但是你要花很多分来拿极品散件
+
+如果你憋分拿散件, 你提升的就慢, 你就很难进团, 那么分也很难攒够
+如果你不憋分, 先拿便宜的, 那么你很快能提升够格打更多的团, 比如高阶团, 那么你分攒的也快, 
+
+等你4T10 264, 项链 用老三的非极品, 披风用老四的非极品, 手腕用老2或者腐面的非极品, 腰带用腐面的, 戒指用老2或者冰龙的. 鞋子用boe的, 那么这些你基本都是底分拿, 同时gs能顶到6.1~6.3, dps能顶到1w3~1w4, 你打任何团都够了
+
+I play tactic and positive
+
+I NEVER DO WINTRADING, and I SHAME ON ANYONE DO WINTRADING, I PLAY SO TACTICLY HARD TO WIN THE GAME. I build a 1 DK 3 Boomy 1 Resto Druid Team. My tactic is that DK going one place, 4 duird transform cat and stealth, and go to another spot and spread. I use DK to lure them into the range of my boomy, then suddently starfall and typhon, and my DK deathgrab the opponent Multiboxer Leader. And I use LINE OF SIGHT ALLOW TO DODGE the OPPONENT's BURST. Most of fight taking like 45sec to 1.5 min.
+
+I NEVER FIGHT PASSIVELY and tryed my best to win, WHY YOU SAY I AM WINTRADING? I do scheduled PRACTICE FIGHT with another multiboxer which is normally boomy in wintergrasp, I want to train my tactic to beat other multiboxer, PLEASE CHECK THE RECORD of HOW smartly I FIGHT with Tactic. MOST of Multiboxer has no tactic just burst and nuke me, I play so hard to make tactic, try my best to win. Once I figured out the tactic, I start using it in wintergraps, I DON't THINK I AM WRONG.
+
+I am a multiboxer and I have 18 account doing ICC, I have been donated over $2,000 on this server. And I plan to donate more for gears for all of my characters. I feel very bad about how your GM do this to a Hard Working, Tactic player like me. I have been meet a lot of multiboxer in AREAN, most of them has no tactic just burst and nuke me, I think I am the MOST TACTIC ONE TO FIGHT, try my best to win. If this appealing not accepted, I feel that warmane is not good environment for good donator and hard playing tactic player, I don't want to play warmane anymore.
+
+Some additional information:
+
+As far as I remember, I met a guy called super druid something, I challenge his full druid team and I said my Team DK + 3 Boomkin + 1 resto are more powerful. In arena I found out his only tactic is typhon and then starfall. But I can death grib his leader and stealth and heal from far to avoid Starfall AOE. Mostly I win, but sometime I failed with Defensive Cool Down and Anti Magic Zone.
+
+If I am banned but that GUY IS not, I FEEL DISAPPOINT HOW WARMANE AUDIT. I PLAYED SO HARD TO WIN, and you call this WINTRADING? I cannot accept it. I believe WARMANE is a healthy community, that's why I am willing to keep donate THOUSANDS of USD to it. COULD YOU PLEASE WATCH PLAYBACK to see how I fight?
+
+Infected accounts includes: fatmulti10, fatmult15, fatmulti16, fatmulti17, fatmulti18
+
+Best Regards
+
+
+
+
+
+I am NOT WINTRADING Mr.Smith
+
+
+
+This ticket is regarding to the Ban "Wintrading" on my account fatmulti10, fatmulti15, fatmulti16, fatmulti17, fatmulti18.
+
+First Mr. Smith I appreciate your quick reply, I carefully read the code of conduct link, by definition Wintrading. Arranged battles in order to profit from its prizes is highly forbidden leading to bans.
+
+I swear to GOD what I want is to TRY MY Specially Designed DK Boomy Resto Druid TACTIC and having FUN by beating people having better PvP gear than me. I NEVER THOUGHT OF PROFITING ANYTHING, MY GOAL is to PLAY THIS TACTIC I NEVER DO.
+
+I SWEAR THAT if I WAS TRYING PROFIT FROM abusing it, instead of FIGHTING SERIOUSLY I will die alone, god curses me to die in a car accident immediately, and my old parents will SHAME on ME forever.
+
+I do meet my opponent team, he challenged me that his team is more powerful but I believe my team is more tactic, then he said, let's dual, see who is the loser.
+
+If the arranged fight is not accepted, I would thank you for sending me the LINK. But if you say that I am profiting from it and exploiting it, I have to clarify that I NEVER THINK OF EXPLOITING PVP ARENA.
+
+That's what I want to say
+
+Best Regards, Thank you
+
+
+
+我发现了 LOD团 那种极品装备都没200分根本没希望的, 反而是哪些章啊什么的便宜
+
+哪些低阶团反而极品装备
+
+Mr. Smith No matter what you will do, I respect your decision. But I am a man, I believe man's dignity, is more important than an account. I am been with Warmane very long time and invested a lot in the community because I believe Warmane is a healthy community. I HATE all those malicious activities like BOTTING, NINJA, EXPLOITING BUG, I reported a lot of activity like that if I found ppl botting and other.
+
+I am been told that I am doing WINTRADING, WHICH is what I GREATLY SHAME ON, and I NEVER TRADING FOR ANYTHING, I feel l am insulted. That's why I insist to appeal that I Didn't do IT.
+
+I respect Warmane staff, you guys did great work to ban those malicious activities. Please keep doing that, I just want to let you know that, I AM NOT A MALICIOUS GUY, I NEVER and WILL NOT DO ANYTHING harming the community
+
+
+Dear GM
+
+I missed the 2021 New Year Gift (bonus Coin, points and toys) because of my business travel last few weeks. I have been donated 2000+ coins in 2020. I found that I cannot collect the gift anymore when I log in today. Since I am a premium member of Warmane and I really love warmane community, could you help me to fix it? This is really important for me.
+
+Best Regards
+
+Dear GM,
+Last few weeks I was too busy. I had no time to log on warmane website to collect the New Year 2021 Gift (bonus coins, point and toys). I donted more than 2000 coins during 2020. I logged on my account today, I found that I cannot collect the gift from warmane. Could you help me fix it please? That is very important for me!
+
+当哥提一下主力核心会阶, 这个鸟德打了2个月LOD团了我一直居然不记得要提会阶了... DB 1w5, 教授1w1, HLK 1w3 几个boss都稳定的没犯过错.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Shady Groovy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
