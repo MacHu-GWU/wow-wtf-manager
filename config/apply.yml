@@ -13,13 +13,13 @@ account-keybinding:
     file: default.txt
 
 account-config:
-  - name: Apply 8 boomy resto druid
+  - name: test
     allow-groups:
       - test
     file: default.txt
 
 account-saved-variables: # per account AddOns settings
-  - name: Apply 8 boomy resto druid
+  - name: test
     allow-groups:
       - test
     allow-addons:
@@ -36,6 +36,7 @@ account-saved-variables: # per account AddOns settings
       - RatingBuster.lua
       - Skada.lua
       - SlideBar.lua
+      - HealBot.lua
 
 #--- Character level configs ---
 character-chat:
@@ -46,46 +47,62 @@ character-chat:
     file: default.txt
 
 character-addons:
-  #--- 多开打团本模式, 司机坦克号开启所有插件, 小号只使用多开必须的插件 ---
 #  - name:
 #    allow-groups:
-#      - addons-raid-mode-pala-tanks
+#      - characters-all
 #    ignore-groups: []
-#    file: raid-mode-pala-tanks.txt
-#  - name:
-#    allow-groups:
-#      - addons-raid-mode-non-pala-tanks
-#    ignore-groups: []
-#    file: raid-mode-non-pala-tanks.txt
-#  - name:
-#    allow-groups:
-#      - addons-raid-mode-pala-other-members
-#    ignore-groups: []
-#    file: raid-mode-pala-other-members.txt
-#  - name:
-#    allow-groups:
-#      - addons-raid-mode-non-pala-other-members
-#    ignore-groups: []
-#    file: raid-mode-non-pala-other-members.txt
+#    file: 09-sdm-only.txt
 
-  #--- 战场模式, 除了司机Luxiaofeng开启所有插件, 小号只使用多开必须的插件 ---
+  #--- 平时模式:
 #  - name:
 #    allow-groups:
-#      - addons-enable-all-for-luxiaofeng
+#      - addons-enable-all
 #    ignore-groups: []
-#    file: enable-all-but-pallypower.txt
+#    file: 01-enable-all.txt
+#
+#  - name: # 骑士主号
+#    allow-groups:
+#      - addons-single-player-comprehensive
+#    ignore-groups: []
+#    file: 03-single-player-comprehensive.txt
+#
+#  - name: # 德鲁伊 萨满 法师 牧师 术士 主号
+#    allow-groups:
+#      - addons-single-player-comprehensive-but-pallypower
+#    ignore-groups: []
+#    file: 04-single-player-comprehensive-but-pallypower.txt
+#
+#  - name:
+#    allow-groups:
+#      - addons-multibox-minimal-but-pallypower
+#    ignore-groups: []
+#    file: 06-multibox-minimal-but-pallypower.txt
+#
+#  - name:
+#    allow-groups:
+#      - addons-enable-all
+#    ignore-groups: []
+#    file: 01-enable-all.txt
+
+  #--- 最少插件最大利用计算及性能极限多开模式
   - name:
     allow-groups:
-#      - addons-multibox-minimal-for-non-luxiaofeng
-      - test
+      - addons-multibox-super-minimal
     ignore-groups: []
-    file: multibox-minimal.txt
+    file: 11-super-minimal.txt
+
+  - name:
+    allow-groups:
+      - addons-multibox-super-minimal-but-pallypower
+    ignore-groups: []
+    file: 12-super-minimal-but-pallypower.txt
+
 
 character-layout:
   # it is a "task"
   - name: Apply default Layout to all characters. Include chat frame, loot frame, action bar, caster bar, map position, etc ...
     allow-groups:
-      - test
+      - characters-all
     ignore-groups: []
     file: default.txt
 
@@ -94,32 +111,39 @@ character-macros:
 #    allow-groups:
 #      - characters-8-dudu
 #    file: druid-balance-resto-multibox-slave.txt
+#  - name:
+#    allow-groups:
+#      - characters-warlock-pvp
+#    file: warlock-demon-pvp-lv80.txt
   - name:
     allow-groups:
-      - characters-warlock-pvp
-    file: warlock-demon-pvp-lv80.txt
+      - test
+    file: priest-kangliu-shadow-pve-and-disco-pve-lv80.txt
 
 character-keybinding:
   - name: Apply keybinding to warrior and dk only
     allow-groups:
-      - test
+      - keybinding-warrior-and-dk
     file: warrior-and-dk.txt
-#  - name: Apply default keybinding to all other than warrior and dk
+  - name: Apply default keybinding to all other than warrior and dk
+    allow-groups:
+      - characters-all
+    ignore-groups:
+      - keybinding-warrior-and-dk
+    file: default.txt
+#  - name: test
 #    allow-groups:
-#      - characters-all
-#    ignore-groups:
-#      - keybinding-warrior-and-dk
+#      - test
 #    file: default.txt
 
-
 character-config:
-  - name: Apply balance resto dual spec druid character macro for multibox as slave
+  - name: Apply default character config, include equipment manager, talent previewer and camera mode set
     allow-groups:
-      - test
+      - characters-all
     file: default.txt
 
 character-saved-variables: # per character AddOns settings
-  - name: Apply 8 boomy resto druid
+  - name: test
     allow-groups:
       - test
     allow-addons:

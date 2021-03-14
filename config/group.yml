@@ -85,6 +85,9 @@ accounts-makun7551:
   - Makun7551.Icecrown.Laoshou
   - Makun7551.Icecrown.Ganjj
 
+accounts-monkey130:
+  - Monkey130.Icecrown.Flydps
+
 accounts-fatmulti11:
   - Fatmulti11.Icecrown.Litgugua
 
@@ -145,6 +148,8 @@ characters-all:
   - accounts-fatmulti8
   - accounts-fatmulti9
   - accounts-fatmulti10
+  - accounts-makun7551
+  - accounts-monkey130
   - accounts-fatmulti11
   - accounts-fatmulti12
   - accounts-fatmulti13
@@ -246,8 +251,9 @@ addons-raid-mode-non-pala-other-members:
   - Fatmulti10.Icecrown.ShinyMonk
 
 addons-enable-all:
-  # high gs main char
-  - Fatmulti1.Icecrown.BatleFury
+  - Fitsheep.Icecrown.Angorarabbit
+
+addons-single-player-comprehensive-but-pallypower:
   - Fatmulti2.Icecrown.Quentinquinn
   - Fatmulti3.Icecrown.Opiitou
   - Fatmulti4.Icecrown.Swagsonic
@@ -255,25 +261,18 @@ addons-enable-all:
   - Fitsheep.Icecrown.Kindhearted
   - Fatmulti6.Icecrown.Kapacuk
   - Fatmulti8.Icecrown.Bunnysisters
-  - Fatmulti9.Icecrown.Glowyy
   - Fatmulti10.Icecrown.Luxiaofeng
-  # others
+  - Makun7551.Icecrown.Ganjj
+  - Monkey130.Icecrown.Flydps
   - Fitsheep.Icecrown.Bordercollie
   - Fitsheep.Icecrown.Sweetmonk
-  # banker
-  - Fitsheep.Icecrown.Angorarabbit
 
-addons-enable-all-for-luxiaofeng:
-  - Fatmulti10.Icecrown.Luxiaofeng
-
-addons-multibox-minimal-for-non-luxiaofeng:
-  - addons-multibox-minimal
-  - Fitsheep.Icecrown.Kindhearted
-  - Fatmulti6.Icecrown.Kapacuk
-  - Fatmulti8.Icecrown.Bunnysisters
+addons-single-player-comprehensive:
+  - Fatmulti1.Icecrown.BatleFury
   - Fatmulti9.Icecrown.Glowyy
+  - Makun7551.Icecrown.Laoshou
 
-addons-multibox-minimal:
+addons-multibox-minimal-but-pallypower:
   - Fatmulti1.Icecrown.Litgoatssa
   - Fatmulti1.Icecrown.Litgoatzsa
   - Fatmulti1.Icecrown.Litgoatdka
@@ -318,6 +317,58 @@ addons-multibox-minimal:
   - Fatmulti16.Icecrown.Litguguf
   - Fatmulti17.Icecrown.Litgugug
   - Fatmulti18.Icecrown.Litguguh
+  - Fatmulti19.Icecrown.lgmsi
+  - Fatmulti20.Icecrown.lgmsj
+  - Fatmulti21.Icecrown.lgmsk
+  - Fatmulti22.Icecrown.lgmsl
+  - Fatmulti23.Icecrown.lgsmm
+  - Fatmulti24.Icecrown.lgsmn
+  - Fatmulti25.Icecrown.lgsmo
+  - Fatmulti26.Icecrown.lgsmp
+
+
+addons-multibox-super-minimal-but-pallypower:
+  - Fatmulti1.Icecrown.Litgoatssa
+  - Fatmulti1.Icecrown.Litgoatdka
+  - Fatmulti2.Icecrown.Quentinquinn
+  - Fatmulti2.Icecrown.Litgoatssb
+  - Fatmulti2.Icecrown.Litgoatdkb
+  - Fatmulti3.Icecrown.Opiitou
+  - Fatmulti3.Icecrown.Litgoatssc
+  - Fatmulti3.Icecrown.Litgoatdkc
+  - Fatmulti4.Icecrown.Swagsonic
+  - Fatmulti4.Icecrown.Litgoatssd
+  - Fatmulti4.Icecrown.Litgoatdkd
+  - Fatmulti5.Icecrown.Kangliu
+  - Fatmulti5.Icecrown.Litgoatsse
+  - Fatmulti5.Icecrown.Litgoatdke
+  - Fitsheep.Icecrown.Kindhearted
+  - Fatmulti6.Icecrown.Kapacuk
+  - Fatmulti8.Icecrown.Bunnysisters
+  - Makun7551.Icecrown.Ganjj
+  - Monkey130.Icecrown.Flydps
+  - Fatmulti11.Icecrown.Litgugua
+  - Fatmulti12.Icecrown.Litgugub
+  - Fatmulti13.Icecrown.Litguguc
+  - Fatmulti14.Icecrown.Litgugud
+  - Fatmulti15.Icecrown.Litgugue
+  - Fatmulti16.Icecrown.Litguguf
+  - Fatmulti17.Icecrown.Litgugug
+  - Fatmulti18.Icecrown.Litguguh
+  - Fatmulti19.Icecrown.lgmsi
+  - Fatmulti20.Icecrown.lgmsj
+  - Fatmulti21.Icecrown.lgmsk
+  - Fatmulti22.Icecrown.lgmsl
+  - Fatmulti23.Icecrown.lgsmm
+  - Fatmulti24.Icecrown.lgsmn
+  - Fatmulti25.Icecrown.lgsmo
+  - Fatmulti26.Icecrown.lgsmp
+
+
+addons-multibox-super-minimal:
+  - Fatmulti1.Icecrown.BatleFury
+  - Fatmulti9.Icecrown.Glowyy
+  - Makun7551.Icecrown.Laoshou
 
 
 #--- group by keybinding ---
@@ -329,15 +380,21 @@ keybinding-warrior-and-dk:
   - Fatmulti4.Icecrown.Litgoatdkd
   - Fatmulti5.Icecrown.Litgoatdke
   - Fatmulti10.Icecrown.Luxiaofeng
+  - Fatmulti10.Icecrown.Luxiaofeng
+  - Fatmulti10.Icecrown.Luxiaofeng
+  - Monkey130.Icecrown.Flydps
+  - Makun7551.Icecrown.Ganjj
 
 test:
 #  - Makun7551.Icecrown.Ganjj
 #  - Makun7551.Icecrown.Laoshou
-  - Fatmulti19.Icecrown.lgmsi
-  - Fatmulti20.Icecrown.lgmsj
-  - Fatmulti21.Icecrown.lgmsk
-  - Fatmulti22.Icecrown.lgmsl
-  - Fatmulti23.Icecrown.lgsmm
-  - Fatmulti24.Icecrown.lgsmn
-  - Fatmulti25.Icecrown.lgsmo
-  - Fatmulti26.Icecrown.lgsmp
+#  - Monkey130.Icecrown.Flydps
+#  - Fatmulti19.Icecrown.lgmsi
+#  - Fatmulti20.Icecrown.lgmsj
+#  - Fatmulti21.Icecrown.lgmsk
+#  - Fatmulti22.Icecrown.lgmsl
+#  - Fatmulti23.Icecrown.lgsmm
+#  - Fatmulti24.Icecrown.lgsmn
+#  - Fatmulti25.Icecrown.lgsmo
+#  - Fatmulti26.Icecrown.lgsmp
+  - Freiliheng.Icecrown.Stophealling

@@ -179,10 +179,42 @@ That's what I want to say
 Best Regards, Thank you
 
 
+ICC 10 NM Speed Run need One Hunter 5.8k+ w me 
+
+我搞了个插件， 可以在你收割倒数2秒以及消失的时候一弹个大提醒， 然后我有个迅捷你的宏顺奶3w5
 
 我发现了 LOD团 那种极品装备都没200分根本没希望的, 反而是哪些章啊什么的便宜
 
 哪些低阶团反而极品装备
+
+富哥不是我没传出去， 是毒蛇陷阱分担被炸飞后空中就中了疾病， 血没满落地我还没跑就死了， 我空中就看到了， 落地我都计划传给我旁边的惩戒骑了
+=============================
+Hi GM,
+
+This is my second ticket regards to the WINTRADING BAN APPEALING. Thank you for your Staff Smith's reply, I want to explain why I got misunderstood, and I wish you give me a second chance.
+
+First, I SWEAR THAT I NEVER EVER INTEND TRADING ANY WIN, if I EVER ARRANGE A FIGHT and TRADING FREE WIN FOR INGAME AWARD, JESUS PLEASE KILL ME IN CAR ACCIDENT TODAY.
+
+Second, by carefully reading the CODE OF CONDUCT, I finally know why GM thought I was WINTRADING.
+I arranged the fight with a Full Boomby multiboxer in Wintergraps and he insulted my DK Boomy Restodudu build, then I ARRANGED a ARENA fight with him to prove that I am better skilled. Because of my tactic and better control, I won most of the fight and he finally cannot win me. I want to play more but he refused to. FROM GM perspective, it seems like an ARRANGED FIGHT and I didn't play more with other player. I DIDN T expect to profit anything and he refuse to play me anymore because he cannot win me BUT I have to DOUBLE CONFIRM THAT
+MB-15FPS
+/console maxfps 15
+MB-30FPS
+/console maxfps 30
+#showtooltip
+/cancelaura [mounted] Swift Purple Gryphon
+/cancelaura [mounted] Swift White Steed
+
+
+#showtooltip
+/stopmacro [mounted]
+/cast [flyable] Swift Purple Gryphon
+/cast [noflyable] Swift White Steed
+
+#showtooltip
+/target Sindragosa
+/cast [nochanneling,nostance] Shadowform
+/castsequence [nochanneling] reset=15 Devouring Plague,Vampiric Touch,Mind Blast,Mind Flay,Mind Flay,Mind Flay,Mind Flay,Vampiric Touch,Mind Flay,Mind Flay,Devouring Plague,Mind Blast,Mind Flay,Vampiric Touch,Mind Flay,Mind Flay,Mind Flay,Mind Flay,Mind Flay
 
 Mr. Smith No matter what you will do, I respect your decision. But I am a man, I believe man's dignity, is more important than an account. I am been with Warmane very long time and invested a lot in the community because I believe Warmane is a healthy community. I HATE all those malicious activities like BOTTING, NINJA, EXPLOITING BUG, I reported a lot of activity like that if I found ppl botting and other.
 
@@ -190,10 +222,18 @@ I am been told that I am doing WINTRADING, WHICH is what I GREATLY SHAME ON, and
 
 I respect Warmane staff, you guys did great work to ban those malicious activities. Please keep doing that, I just want to let you know that, I AM NOT A MALICIOUS GUY, I NEVER and WILL NOT DO ANYTHING harming the community
 
-
+多开哥ICC10普通速推带小号团. 密我职业天赋进组, gs要求4.8k 还有1个坦克的坑, 需要2小时时间.
+ICC10NM EOF Farm Guild Alts Carry Boosting Run, 9ppl from same guild, Need 1 Random Tank, 4.8kGS Req
 Dear GM
 
 I missed the 2021 New Year Gift (bonus Coin, points and toys) because of my business travel last few weeks. I have been donated 2000+ coins in 2020. I found that I cannot collect the gift anymore when I log in today. Since I am a premium member of Warmane and I really love warmane community, could you help me to fix it? This is really important for me.
+
+波波老师2周前库总的周六团萨满打了LOD, 他说打的可以再玩一周还这样提会阶. 结果之后连续3次LOD都萨满爆炸进不了团. 这次让我进一次嘛.老麦的萨满又木有需求,求再练LOD.
+
+/w Chokonilo
+Chokonilo Is a SCAMMER! PLEASE USE THIS LINK TO REPORT HIM. The more ppl report, the longer he banned. He change item at last second. Please check evidence Video and BAN THIS GUY! https://youtu.be/qqp73RVDmc8
+
+Hi GM, Chokonilo is a Scammer! He change the item at last second when trading. Please Check evidence Video and BANE this guy. https://youtu.be/qqp73RVDmc8
 
 Best Regards
 
@@ -204,11 +244,11 @@ Last few weeks I was too busy. I had no time to log on warmane website to collec
 
 
 
+多开哥求购永恒之水8G一个, 永恒之土5G一个, 大量, 500G以下可以直接COD给我. 我研究了宝库25人单刷. 需要做100件冰抗, 我算了下一共每样要400个. 谢谢各位会友
 
 
 
-
-
+D
 
 
 
@@ -226,6 +266,16 @@ Shady Groovy
 
 
 
+#showtooltip
+/castsequence [nochanneling] reset=target Immolate,Corruption,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt,Shadow Bolt,Shadow Bolt,Corruption,Incinerate,Incinerate,Incinerate,Life Tap,Immolate,Shadow Bolt,Shadow Bolt,Corruption,Shadow Bolt,Shadow Bolt,Shadow Bolt,Incinerate,Incinerate,Incinerate
+/cast Demonic Empowerment
+/cast Shadow Cleave
+
+
+#showtooltip
+/castsequence [nochanneling] reset=10 Immolate,Corruption,Shadow Bolt,Life Tap,Shadow Bolt,Shadow Bolt,Shadow Bolt,Shadow Bolt,Corruption,Incinerate,Incinerate,Incinerate,Life Tap,Immolate,Shadow Bolt,Shadow Bolt,Corruption,Shadow Bolt,Shadow Bolt,Shadow Bolt,Incinerate,Incinerate,Incinerate
+/cast Demonic Empowerment
+/cast Shadow Cleave
 
 
 

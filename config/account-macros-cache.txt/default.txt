@@ -1,22 +1,4 @@
-MACRO 83 "LFG1" Spell_Shaman_SpiritLink
-/5 VOA25 F+F Need All 4.8k+, w me with GS and Role
-/g VOA25 宝库开组 密我天赋职业进组 我好安排
-#/5 [Anub'Rekhan Must Die!] Need All, w me with GS and Role
-#/g Naxx 蜘蛛周常开组 密我天赋职业进组 我好安排
-END
-MACRO 84 "LFG2" Spell_Shaman_SpiritLink
-/rw Rule: PvE MS>OS w me with MS change, PvP All Role, Mount Res
-/rw Mr X DPS ||
-#/rw Sharing Quest, please abandon existing one and TAKE MINE
-#/rw 分享任务, 请放弃你自己的, 接受我的任务
-END
-MACRO 42 "MB-Confirm" Spell_ChargePositive
-/click StaticPopup1Button1
-END
-MACRO 81 "MB-FocusClear" Spell_Shadow_SoulLeech_2
-/clearfocus
-END
-MACRO 91 "MB-Invite-T1" Spell_Shaman_SpiritLink
+MACRO 91 "InvT1" Spell_Shadow_Twilight
 /inv batlefury
 /inv opiitou
 /inv quentinquinn
@@ -33,14 +15,16 @@ MACRO 91 "MB-Invite-T1" Spell_Shaman_SpiritLink
 /inv litgoatdkd
 /inv litgoatdke
 END
-MACRO 45 "MB-Invite-T2" Spell_Shaman_SpiritLink
+MACRO 45 "InvT2" Spell_Shadow_Twilight
 /inv kindhearted
 /inv kapacuk
 /inv bunnysisters
 /inv glowyy
 /inv luxiaofeng
-/inv bordercollie
+/inv flydps
 /inv laoshou
+/inv ganjj
+/inv bordercollie
 /inv litgugua
 /inv litgugub
 /inv litguguc
@@ -49,6 +33,43 @@ MACRO 45 "MB-Invite-T2" Spell_Shaman_SpiritLink
 /inv litguguf
 /inv litgugug
 /inv litguguh
+END
+MACRO 111 "InvT3" Spell_Shadow_Twilight
+/inv lgmsi
+/inv lgmsj
+/inv lgmsk
+/inv lgmsl
+/inv lgsmm
+/inv lgsmn
+/inv lgsmo
+/inv lgsmp
+/inv lgssq
+/inv lglrr
+/inv lgzss
+END
+MACRO 83 "LFG1" Spell_Shadow_Twilight
+#/5 VOA25 F+F Need All 4.8k+, w me with GS and Role
+#/g VOA25 宝库开组 密我天赋职业进组 我好安排
+#/5 [Anub'Rekhan Must Die!] Need All, w me with GS and Role
+#/g Naxx 蜘蛛周常开组 密我天赋职业进组 我好安排
+END
+MACRO 84 "LFG2" Spell_Shadow_Twilight
+#/rw Rule: PvE MS>OS w me with MS change, PvP All Role, Mount Res
+#/rw XXX Tank ||
+#/rw Sharing Quest, please abandon existing one and TAKE MINE
+#/rw 分享任务, 请放弃你自己的, 接受我的任务
+END
+MACRO 42 "MB-Confirm" Spell_ChargePositive
+/click StaticPopup1Button1
+END
+MACRO 81 "MB-FocusClear" Spell_Shadow_SoulLeech_2
+/clearfocus
+END
+MACRO 107 "MB-FocusSet" Ability_Creature_Cursed_04
+/focus
+END
+MACRO 106 "MB-FollowFcs" Ability_Hunter_Pet_Boar
+/follow focus
 END
 MACRO 88 "MB-LeaveParty" Spell_Shaman_BlessingOfEternals
 /script LeaveParty()
@@ -71,21 +92,33 @@ MACRO 67 "MB-TgtW01" Ability_Hunter_MarkedForDeath
 /tar litgoatssa
 /tar litgoatdka
 END
-MACRO 94 "MB-TgtW02" Ability_Hunter_MarkedForDeath
+MACRO 94 "MB-TgtW03" Ability_Hunter_MarkedForDeath
 /tar opiitou
 END
 MACRO 44 "MB-TgtW06" Ability_Hunter_MarkedForDeath
 /tar kindhearted
 /tar sweetmonk
 END
+MACRO 110 "MB-TgtW07" Ability_Hunter_MarkedForDeath
+/tar kapacuk
+END
 MACRO 97 "MB-TgtW09" Ability_Hunter_MarkedForDeath
 /tar glowyy
 END
 MACRO 95 "MB-TgtW10" Ability_Hunter_MarkedForDeath
 /tar luxiaofeng
+/tar laoshou
+/tar ganjj
+/tar flydps
 END
 MACRO 96 "MB-TgtW11" Ability_Hunter_MarkedForDeath
 /tar litgugua
+END
+MACRO 108 "MB-TgtW15" Ability_Hunter_MarkedForDeath
+/tar lgmsi
+END
+MACRO 109 "MB-TgtW19" Ability_Hunter_MarkedForDeath
+/tar lgsmm
 END
 MACRO 99 "WTB" Spell_Shaman_GiftEarthmother
 /run local a,a=GetItemInfo(43102); SendChatMessage("WTB "..a.." 65 Each.","GUILD",nil,nil)
